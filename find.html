@@ -205,9 +205,9 @@
 						</form> -->
 						<ul class="nav navbar-nav navbar-right">
 							<li class="__nava"><a class="__nav-item" href="index.html">Home </a></li>
-							<li class="__nava"><a class="__nav-item active" href="about.html">About </a></li>
+							<li class="__nava"><a class="__nav-item" href="about.html">About </a></li>
 							<li class="__navac"><a class="__nav-item" href="#">Contact </a></li>
-							<li class="__navsign"><a href="#" class="__navsign1">Sign in</a></li>
+							<li class="__navsignbg"><a href="#" class="__navsign1">Sign in</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div>
@@ -830,63 +830,40 @@
 
 							
 							
-							<form id="regForm" class="slideanim" action="/action_page.php" method="POST" role="form">
-							  	<!-- <h1>Register:</h1> -->
-							  	<!-- One "tab" for each step in the form: -->
-							  	<div class=" tab">
-							  		<div class="form-group ">
+							<form id="regForm" class="slideanim" action="" method="POST" role="form">
+
+								<div class="" id="First-Div">
+									<div class="form-group">
 										<label for="" class="__fidfor">First name</label>
-								    	<input type="text" class="form-control __fomin" placeholder="First name..."  name="fname">	
-								    </div>
-								    <div class="form-group ">
+										<input type="text" class="form-control  __fomin" name="" id="" placeholder="">
+									</div>
+									<div class="form-group">
 										<label for="" class="__fidfor">Last Name</label>
-								    	<input type="text" class="form-control  __fomin" placeholder="Last name..." name="lname">	
-								    </div>
-							  	</div>
+										<input type="text" class="form-control  __fomin" name="" id="" placeholder="">
+									</div>
 
-							  	<div class=" tab">
-							  		<div class="form-group ">
+									<button type="button" class="__fombtn" onclick="showNextForm()">Next</button>
+								</div>
+								<div class="" id="Second-Div" style="display: none;">
+									
+									<div class="form-group">
 										<label for="" class="__fidfor">Email Address</label>
-								    	<input type="email" class="form-control __fomin" placeholder="Email Address..."  name="email">	
-								    </div>
-								    <div class="form-group ">
-										<label for="" class="__fidfor">Phone Number</label>
-								    	<input type="text" class="form-control  __fomin" placeholder="+234..." name="lname" id="quantity"><span id="errmsg"></span>
-								    </div>
+										<input type="email" class="form-control  __fomin" name="" id="" placeholder="">
+									</div>
 
-								    <div class="form-group ">
+									<div class="form-group">
+										<label for="" class="__fidfor">Phone Number</label>
+										<input type="text" class="form-control  __fomin" name="quantity" id="quantity" placeholder="+234"/><span id="errmsg"></span>
+									</div>
+
+									<div class="form-group ">
 										<label for="" class="__fidfor">Skype ID</label>
 								    	<input type="text" class="form-control __fomin" placeholder="Skype ID..."  name="">
 								    </div>
-							  	</div>
 
-							  	<!-- <div class="form-group tab">Name:
-							    	<input type="text" class="form-control" placeholder="First name..." oninput="this.className = ''" name="fname">	
-							    	<input type="text" class="form-control" placeholder="Last name..." oninput="this.className = ''" name="lname">	
-							  	</div>
-							  	<div class="tab">Contact Info:
-							    	<p><input placeholder="E-mail..." oninput="this.className = ''" name="email"></p>
-							    	<p><input placeholder="Phone..." oninput="this.className = ''" name="phone"></p>
-							  	</div>
-							  	<div class="tab">Birthday:
-							    	<p><input placeholder="dd" oninput="this.className = ''" name="dd"></p>
-							    	<p><input placeholder="mm" oninput="this.className = ''" name="nn"></p>
-							    	<p><input placeholder="yyyy" oninput="this.className = ''" name="yyyy"></p>
-							  	</div>
-							  	<div class="tab">Login Info:
-							    	<p><input placeholder="Username..." oninput="this.className = ''" name="uname"></p>
-							    	<p><input placeholder="Password..." oninput="this.className = ''" name="pword" type="password"></p>
-							  	</div> -->
-							  	<div style="overflow:auto;">
-							    	<div>
-								      	<button type="button" class="__fombtn" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
-								      	<button type="button" class="__fombtn" id="nextBtn" onclick="nextPrev(1)">Next</button>
-								    </div>
-							  	</div>
-							  	<!-- Circles which indicates the steps of the form: -->
-							  	<div style="text-align:center;margin-top:40px;">
-								    <span class="step"></span>
-							  	</div>
+								    <button type="button" class="__fombtn" onclick="showPrevForm()">Previous</button>
+								    <button type="submit" class="__fombtn" onclick="showNextForm()">Submit</button>
+								</div>
 							</form>
 						</div>
 					</div>
@@ -912,40 +889,35 @@
 				<div class="col-md-3"></div>
 				<div class="col-md-9">
 					<div class="row">
-						<div class="col-md-6 slideanim">
+						<div class="col-md-6 col-sm-6 slideanim">
 							<div class="row __finml">
-								<div class="col-md-2">
+								<div class="col-md-2 col-xs-2">
 									<img src="assets/img/unsur.svg" class="__finimg">
 								</div>
-								<div class="col-md-10">
+								<div class="col-md-10 col-xs-10">
 									<p class="__finun">UNSURPASSED TALENT</p>
 									<p class="__finom">Our  membership board of award-winning creatives and developers assures that clients always get the best projects, delivered on time!New Findworka pro members are the most respected and hardest working creators in the industry! - Change text!</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 slideanim">
+						<div class="col-md-6 col-sm-6 slideanim">
 							<div class="row __finmt">
-								<div class="col-md-2">
+								<div class="col-md-2 col-xs-2">
 									<img src="assets/img/friend.svg" class="__finimg">
 								</div>
-								<div class="col-md-10">
+								<div class="col-md-10 col-xs-10">
 									<p class="__finfr1">FRIENDLY RATES</p>
 									<p class="__finfr">Our  membership board of award-winning creatives and developers assures that clients always get the best projects, delivered on time!New Findworka pro members are the most respected and hardest working creators in the industry! - Change text!</p>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
 
-			<div class="row slideanim">
-				<div class="col-md-5"></div>
-				<div class="col-md-7">
-					<div class="row __finint">
-						<div class="col-md-1">
-							<img src="assets/img/industry.svg" class="__finimg">
+					<div class="row __finint slideanim">
+						<div class="col-md-1 col-xs-2 col-sm-1">
+							<img src="assets/img/industry.svg" class="__finimgind">
 						</div>
-						<div class="col-md-11">
+						<div class="col-md-11 col-xs-10 col-sm-11">
 							<p class="__finind">INDUSTRY FOCUS</p>
 							<p class="__finind1">Our  membership board of award-winning creatives and developers assures that clients always get the best projects, delivered on time!New Findworka pro members are the most respected and hardest working creators in the industry! - Change text!</p>
 						</div>

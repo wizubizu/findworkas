@@ -34,12 +34,16 @@
     width: 100%;
     height: 165px;
     margin-left: 25px;
+    font-size: 18px;
 	}
 
 
 	.__watwedo {
     margin-top: 25px;
     margin-left: 24px;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
 	}
 
 	.__mle1 {
@@ -47,28 +51,44 @@
 	}
 
 	.__web {
-    font-size: 28px;
+    font-size: 25px;
+    width: 100%;
+    line-height: 4.9;
+    margin-left: -5px;
+	}
+
+	.__desi {
+    font-size: 25px;
+    line-height: 3.9;
+    margin-left: 9px;
 	}
 
 	.__watever {
     width: 100%;
+    height: 100%;
+    font-size: 18px;
 	}
 
 	.__des {
     margin-left: 0px;
+    margin-top: 31%;
 	}
 
 	.__ourmem {
     width: 100%;
+    font-size: 18px;
 	}
 
 	.__webmo {
-    font-size: 27px;
+    font-size: 25px;
+    margin-left: -3px;
+    line-height: 3.9;
 	}
 
 	.__webm {
     width: 100%;
     height: 100%;
+    font-size: 18px;
 	}
 
 
@@ -196,14 +216,387 @@
 
 	.__abotm {
     width: 100%;
+    font-size: 18px;
 	}
 
 	.__aboceo {
     width: 100%;
     height: 100%;
+    font-size: 18px;
+	}
+
+	.__fidh {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    margin-left: 5px;
+	}
+
+	.__prol {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    margin-left: 5px;
+	}
+
+	.__fidou {
+    width: 100%;
+    height: 100%;
+    margin-left: 5px;
+    font-size: 18px;
+	}
+
+	.__aboml {
+    margin-left: 35px;
+	}
+
+	.__prowy {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+	}
+
+	.__prou {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+	}
+
+    .__finml {
+    margin-left: -37px;
+    margin-top: 10%;
+	}
+
+	.__pros {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+	}
+
+	.__findbgc {
+    min-height: 100%;
+	}
+
+	.__prom {
+    margin-left: -65px;
+    font-size: 18px;
+	}
+
+	.__proc {
+    width: 100%;
+    height: 100%;
+    font-size: 23px;
+    line-height: 1.8;
+    margin-left: 5px;
+    }
+
+    .__prorc {
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    line-height: 1.8;
+    margin-left: -10px;
+	}
+
+	.__proc1{
+    width: 279px;
+    height: 100%;
+    font-size: 18px;
+    line-height: 1.65;
+    margin-left: -46px;
+	}
+
+	.__finmt {
+    margin-top: 44%;
+    margin-left: 73px;
+	}
+
+	#regForm {
+    padding-left: 7px;
+	}
+
+	.__finint {
+    margin-left: -23px;
+    margin-top: 15%;
+	}
+
+	.__finimg {
+    margin-left: 0px;
+	}
+
+	.__finimgind {
+    margin-left: -15px;
 	}
 
 
+	.__fintp {
+    margin-top: 10%;
+    margin-left: -48px;
+	}
+
+	.__finwe {
+    width: 100%;
+    height: 100%;
+    font-family: Poppins-SemiBold;
+    font-size: 50px;
+    }
+
+    .__contf {
+    width: 100%;
+    height: 100%;
+    font-family: Poppins-SemiBold;
+    font-size: 50px;
+    }
+
+    .__pron {
+    width: 100%;
+    height: 100%;
+    font-family: Poppins-SemiBold;
+    font-size: 50px;
+    }
+
+    .__finouw {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+	}
+
+	.__prouw {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+	}
+
+	.__prodowbgc {
+    height: 100%;
+    background-color: #0000ef;
+    margin-top: 10%;
+	}
+
+	.__des1 {
+    margin-left: 378px;
+    margin-top: 18%;
+	}
+	.__finwy {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+	}
+
+	.__finou {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+	}
+
+	.__finun {
+    font-size: 25px;
+    line-height: 1.9;
+	}
+
+	.__finom {
+    font-size: 18px;
+    margin-left: -65px;
+	}
+
+	.__finfr1 {
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    line-height: 1.9;
+    margin-left: 9px;
+	}
+
+	.__finfr {
+    width: 290px;
+    height: 100%;
+    font-size: 18px;
+    line-height: 1.65;
+    margin-left: -45px;
+	}
+
+	.__finind {
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    margin-left: -18px;
+	}
+
+	.__finind1 {
+    width: 359px;
+    height: 100%;
+    font-size: 18px;
+	}
+
+	.__findowbgc {
+    height: 444px;
+	}
+
+	.__fidfor {
+    font-size: 18px;
+	}
+
+	.__prosp {
+    font-size: 30px;
+	}
+
+	.__ourplatf {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    margin-left: 22px;
+    margin-top: 42px;
+    }
+
+    .__disis {
+    height: 100%;
+    font-size: 18px;
+    }
+
+    .__abimgd {
+    top: 41px;
+    right: 15px;
+	}
+
+	.__findpr {
+    font-size: 25px;
+    line-height: 3.9;
+    margin-left: 5px;
+    }
+
+    .__findpr1 {
+    height: 100%;
+    font-size: 18px;
+	}
+
+	.__sau {
+    font-size: 25px;
+    line-height: 3.9;
+    margin-left: 5px;
+	}
+
+	.__sau1 {
+    height: 100%;
+    font-size: 18px;
+	}
+
+	.__abume {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+	}
+
+	.__abgla {
+    margin-left: -24px;
+	}
+
+	.__headerbgc {
+    height: 100% !important;
+    padding-bottom: 30px;
+	}
+
+	.__mana {
+    font-size: 25px;
+    line-height: 3.8;
+    margin-left: -13px;
+	}
+
+	.__posab {
+    position: absolute;
+    margin-top: -19%;
+    margin-left: 2px;
+	}
+
+	.__mang {
+    font-size: 18px;
+	}
+
+	.__sprea {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+	}
+
+	.__extp {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    margin-top: 79px;
+	}
+
+
+	.__witp {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+	}
+
+	.__extp1 {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+	}
+
+	.__extlet {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+	}
+
+	.__abimg {
+    width: 271px;
+    height: 192px;
+	}
+
+	.__abouim {
+    width: 272px;
+    height: 193px;
+	}
+
+	.__socion1 {
+    width: 150.8px;
+    height: 150.8px;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1.5px #4a4a4a;
+    border-radius: 50%;
+    padding: 37px;
+    text-align: center;
+    margin-left: -26px;
+	}
+
+	.__pf{
+		margin-left: 10%;
+	}
+
+	.__socion2 {
+    width: 150.8px;
+    height: 150.8px;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1.5px #4a4a4a;
+    border-radius: 50%;
+    padding: 37px;
+    text-align: center;
+    margin-left: -50px;
+	}
+
+	.__pl {
+    margin-left: 0%;
+	}
+
+	.__socion3 {
+    width: 150.8px;
+    height: 150.8px;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1.5px #4a4a4a;
+    border-radius: 50%;
+    padding: 37px;
+    text-align: center;
+    margin-left: -73px;
+	}
+
+	.__pm {
+    margin-left: -15%;
+	}
 
 }
 
@@ -234,7 +627,7 @@
     margin-top: 2px;
     width: 100%;
     height: 209px;
-    font-size: 60px;
+    font-size: 50px;
 	}
 
 	.__mtop {
@@ -243,7 +636,7 @@
 	}
 
 	.__watwedo {
-    width: 360px;
+    width: 100%;
     height: 100%;
     font-size: 40px;
     margin-top: 15px;
@@ -256,38 +649,71 @@
 	.__web {
     width: 100%;
     height: 43px;
-    font-size: 24px;
+    font-size: 20px;
+    margin-left: -8px;
+    line-height: 3.9;
 	}
 
 	.__watever {
     width: 100%;
     height: 100%;
+    font-size: 18px;
 	}
 
 	.__des {
     margin-left: 0px;
-    margin-top: 55%;
+    margin-top: 34%;
 	}
 
 	.__ourmem {
     width: 100%;
     height: 100%;
+    font-size: 18px;
+	}
+
+	.__mana {
+    font-size: 20px;
+    line-height: 5;
+	}
+
+	.__posab {
+    position: absolute;
+    margin-top: -23%;
+    margin-left: 0px;
+	}
+
+	.__mang {
+    font-size: 18px;
 	}
 
 	.__webmo {
     width: 100%;
     height: 43px;
     font-size: 20px;
+    line-height: 5;
 	}
 
 	.__webm {
     width: 100%;
     height: 100%;
+    font-size: 18px;
 	}
 
 	.__spreahed {
     margin-left: 8.3%;
     margin-top: 1%;
+	}
+
+	.__sprea {
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+	}
+
+	.__witp {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
 	}
 
 	.__pulse1 {
@@ -335,6 +761,7 @@
 	.__extendlef {
     margin-left: 0px;
     margin-bottom: 10px;
+    margin-top: 35px;
 	}
 
 	.__bottombgimg{
@@ -348,6 +775,7 @@
 	.__abwe {
     width: 100%;
     height: 100%;
+    font-size: 18px;
 	}
 	.__abwe1 {
     width: 100%;
@@ -395,12 +823,438 @@
 	}
 
 	.__abuml {
-    margin-left: -11px;
+    margin-left: 60px;
 	}
 
 	.__abost {
     margin-top: 10px;
 	}
+	.__pros {
+    width: 100%;
+    height: 100%;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 1;
+    color: #ffffff;
+    margin-top: 15px;
+    }
+
+	.__findbgc {
+    min-height: 100%;
+	}
+
+	.__fidh {
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1;
+    color: #0a0909;
+    margin-left: 15px;
+    margin-top: 30px;
+	}
+
+	.__prol {
+    width: 100%;
+    height: 100%;
+    font-size: 49px;
+    font-weight: 600;
+    line-height: 1;
+    color: #0a0909;
+    margin-left: 15px;
+    margin-top: 30px;
+	}
+
+    .__fidou {
+    width: 100%;
+    height: 100%;
+    font-family: Sofia Pro Regular;
+    font-size: 16px;
+    line-height: 1.65;
+    color: #585353;
+    margin-left: 15px;
+	}
+
+	.__prou {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+	}
+
+	.__prom {
+    margin-left: -54px;
+    font-size: 16px; 
+	}
+
+	.__finind {
+    margin-left: 20px;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    line-height: 1.9;
+	}
+
+	.__finmt {
+    margin-left: 0px;
+	}
+
+	.__finind1 {
+	font-size: 16px;
+	margin-left: -35px;
+    }
+
+    .__proc1 {
+    margin-left: -59px;
+    font-size: 16px;
+    width: 329px;
+	}
+
+	.__finint {
+    margin-top: 2%;
+	}
+
+	.__prorc {
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Poppins-SemiBold;
+    line-height: 1.8;
+    margin-left: -10px;
+	}
+
+	.__prowy {
+    width: 100%;
+    height: 100%;
+    font-size: 45px;
+    line-height: 1;
+	}
+
+	.__aboml {
+    margin-left: 60px;
+	}
+
+	.__finml {
+    margin-left: 0px;
+	}
+
+	.__proc {
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Poppins-SemiBold;
+    line-height: 1.8;
+    }
+
+	.__finwe {
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+	}
+
+	.__contf {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+	}
+
+	.__pron {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+	}
+
+	.__finouw {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+	}
+
+	.__prouw {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+	}
+
+	.__findowbgc {
+    height: 100%;
+    background-color: #0000ef;
+    margin-top: 10%;
+    padding-bottom: 10px;
+	}
+
+	.__fintp {
+    margin-top: 3%;
+    margin-left: 0px;
+	}
+
+	.__finimg {
+    margin-left: -2px;
+	}
+
+	.__finimgind {
+    margin-left: 30px;
+	}
+
+	.__prodowbgc {
+    height: 100%;
+    background-color: #0000ef;
+    margin-top: 10%;
+	}
+
+	.__des1 {
+    margin-left: 374px;
+    margin-top: 18%;
+	}
+
+	.__fids {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1;
+    color: #ffffff;
+    margin-top: 17px;
+    font-family: Poppins-SemiBold;
+	}
+
+	.__cont {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1;
+    color: #ffffff;
+    margin-top: 17px;
+    font-family: Poppins-SemiBold;
+	}
+
+	.__cont {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1;
+    color: #ffffff;
+    margin-top: 17px;
+    font-family: Poppins-SemiBold;
+	}
+
+
+	.__fidy {
+    width: 100%;
+    height: 100%;
+	}
+
+	.__contw {
+    width: 100%;
+    height: 100%;
+	}
+
+	.__finwy {
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    line-height: 1.5;
+	}
+
+	.__finfr1 {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    line-height: 1.9;
+	}
+
+	.__finou {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+	}
+
+	.__finun {
+    height: 100%;
+    font-size: 20px;
+    line-height: 1.9;
+	}
+
+	.__finom {
+    font-size: 16px;
+	}
+	.__finfr {
+    font-size: 16px;
+	}
+	.__fomin {
+    height: 40px;
+	}
+
+	.__fombtn {
+    height: 40px;
+	}
+
+	.__ourplatf {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 55px;
+	}
+
+	.__abimgd {
+    top: 42px;
+    right: 15px;
+	}
+
+	.__findpr {
+    width: 326px;
+    height: 43px;
+    font-size: 25px;
+    line-height: 3.9;
+    margin-left: 9px;
+	}
+
+	.__disis {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+	}
+
+	.__findpr1 {
+    font-size: 18px;
+     height: 100%;
+	}
+
+	.__sau {
+    width: 286px;
+    height: 43px;
+    font-size: 25px;
+    line-height: 3.9;
+    margin-left: 4px;
+	}
+
+	.__sau1 {
+    height: 100%;
+    font-size: 18px;
+	}
+
+	.__abume {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+	}
+
+	.__abotm {
+    width: 100%;
+    font-size: 18px;
+	}
+
+	.__aboceo {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+	}
+
+	.__abgla {
+    margin-left: -17px;
+	}
+
+	.__hire {
+    width: 100%;
+    font-size: 18px;
+	}
+	.__become {
+    width: 100%;
+    font-size: 18px;
+	}
+
+	.__ourme {
+    width: 100%;
+    height: 100%;
+    margin-left: 25px;
+	}
+
+	.__desi {
+    font-size: 20px;
+    line-height: 4.8;
+    margin-left: 10px;
+	}
+
+	.__extp {
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    margin-top: 56px;
+	}
+
+	.__extlet {
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+	}
+
+	.__extp1 {
+    font-size: 18px;
+	}
+
+	.__extnot {
+    font-size: 18px;
+	}
+
+	.__abimg {
+    width: 269px;
+    height: 185px;
+	}
+
+	.__abouim {
+    width: 270px;
+    height: 186px;
+	}
+
+	.__socion1 {
+    width: 150.8px;
+    height: 150.8px;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1.5px #4a4a4a;
+    border-radius: 50%;
+    padding: 37px;
+    text-align: center;
+    margin-left: 0px;
+	}
+	.__pf{
+		margin-left: 28%;
+	}
+
+	.__socion2 {
+    width: 150.8px;
+    height: 150.8px;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1.5px #4a4a4a;
+    border-radius: 50%;
+    padding: 37px;
+    text-align: center;
+    margin-left: 0px;
+	}
+
+	.__pl {
+    margin-left: 30%;
+	}
+
+	.__socion3 {
+    width: 150.8px;
+    height: 150.8px;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1.5px #4a4a4a;
+    border-radius: 50%;
+    padding: 37px;
+    text-align: center;
+    margin-left: 0px;
+	}
+
+	.__pm {
+    margin-left: 32%;
+	}
+
+	
 
 }
 
@@ -439,13 +1293,13 @@
 	.__hire {
     width: 100%;
     height: 42px;
-    font-size: 10px;
+    font-size: 12px;
 	}
 
 	.__become {
     width: 100%;
     height: 42px;
-    font-size: 9px;
+    font-size: 12px;
 	}
 
 	.__mtop {
@@ -456,7 +1310,7 @@
 	.__watwedo {
     width: 100%;
     height: 100%;
-    font-size: 40px;
+    font-size: 20px;
     margin-left: 0px;
     margin-top: 5px;
 	}
@@ -464,13 +1318,13 @@
 	.__ourme {
     width: 100%;
     height: 100%;
-    font-size: 20px;
+    font-size: 14px;
     margin-left: 0px;
 	}
 
 	.__no1 {
     width: 100%;
-    height: 60px;
+    height: 43px;
     font-family: Goku;
     font-size: 40px;
     line-height: 1.67;
@@ -481,7 +1335,9 @@
 	.__web {
     width: 100%;
     height: 43px;
-    font-size: 20px;
+    font-size: 18px;
+    margin-left: -15px;
+    line-height: 3.9;
 	}
 
 	.__watever {
@@ -538,14 +1394,16 @@
 
 	.__desi {
     width: 100%;
-    height: 100%;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 3.9;
+    margin-left: -2px;
 	}
 
 	.__mana {
     width: 100%;
-    height: 100%;
-    font-size: 20px;
+    font-size: 16px;
+    line-height: 3.9;
+    margin-left: -3px;
 	}
 
 	.__posab {
@@ -568,7 +1426,7 @@
 	.__sprea {
     width: 100%;
     height: 100%;
-    font-size: 28px;
+    font-size: 25px;
 	}
 
 	.__witp {
@@ -646,7 +1504,7 @@
 	.__extp {
     width: 100%;
     height: 100%;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     line-height: 1.5;
     color: #ffffff;
@@ -662,7 +1520,7 @@
     .__extlet {
     width: 100%;
     height: 100%;
-    font-size: 30px;
+    font-size: 25px;
 	}
 
 	.__expbtn {
@@ -721,7 +1579,7 @@
 	.__ourplatf {
     width: 100%;
     height: 100%;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 600;
     line-height: 1.5;
     color: #0a0909;
@@ -738,7 +1596,8 @@
 	.__findpr {
     width: 100%;
     height: 100%;
-    font-size: 18px;
+    font-size: 17px;
+    margin-left: -7px;
 	}
 
 	.__findpr1 {
@@ -819,7 +1678,7 @@
 	.__abume {
     width: 100%;
     height: 100%;
-    font-size: 25px;
+    font-size: 20px;
 	}
 	
 
@@ -834,7 +1693,7 @@
 	}
 
 	.__aboml {
-    margin-left: 10px;
+    margin-left: 0px;
 	}
 
 	.__imghov {
@@ -843,9 +1702,404 @@
 	}
 
 	.__abuotm {
-    width: 100%;;
+    width: 100%;
+    height: 100%;
 	}
 
+
+	.__pros {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #ffffff;
+    margin-top: 15px;
+    }
+
+    .__fidy {
+    width: 100%;
+    height: 100%;
+    font-family: Sofia Pro Regular;
+    font-size: 14px;
+    line-height: 1.35;
+    color: #ffffff;
+    margin-top: 5%;
+	}
+
+	.__contw {
+    width: 100%;
+    height: 100%;
+    font-family: Sofia Pro Regular;
+    font-size: 14px;
+    line-height: 1.35;
+    color: #ffffff;
+    margin-top: 5%;
+	}
+
+	.__findbgc {
+    min-height: 100%;
+	}
+
+	.__fidh {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #0a0909;
+    margin-left: 15px;
+    margin-top: 6px;
+	}
+
+	.__prol {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #0a0909;
+    margin-left: 0px;
+    margin-top: 6px;
+	}
+
+	#regForm {
+    padding-left: 0px;
+	}
+
+
+	.__fomin {
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+	}
+
+	.__fombtn {
+	margin-top: 10px;
+    width: 100%;
+    height: 40px;
+	}
+
+	.__fidfor {
+   	font-size: 14px;
+	}
+
+	.__fidou {
+    width: 100%;
+    height: 100%;
+    font-family: Sofia Pro Regular;
+    font-size: 14px;
+    line-height: 1.65;
+    color: #585353;
+    margin-left: 0px;
+	}
+
+	.__prowy {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+	}
+
+	.__prou {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+	}
+
+	.__prorc {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Poppins-SemiBold;
+    line-height: 2;
+    margin-left: 0px;
+	}
+
+	.__prom {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 1.65;
+    margin-left: 0px;
+	}
+
+	.__proc {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Poppins-SemiBold;
+    line-height: 2;
+    }
+
+	.__finmt {
+    margin-top: 8%;
+    margin-left: 0px;
+	}
+
+	.__proc1 {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 1.65;
+    margin-left: 0px;
+	}
+
+	.__finind {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Poppins-SemiBold;
+    line-height: 2;
+    color: #1f1d1d;
+    margin-left: 0px;
+	}
+
+	.__finind1 {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 1.65;
+    color: #585353;
+    margin-left: 0px;
+	}
+
+	.__finint {
+    margin-left: -3px;
+    margin-top: 6%;
+	}
+
+	.__finwe {
+    width: 100%;
+    height: 100%;
+    font-family: Poppins-SemiBold;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    color: #ffffff;
+	}
+
+	.__contf {
+    width: 100%;
+    height: 100%;
+    font-family: Poppins-SemiBold;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    }
+
+	.__pron {
+    width: 100%;
+    height: 100%;
+    font-family: Poppins-SemiBold;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    }
+
+    .__prouw {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+	}
+
+	.__prosp {
+    font-size: 20px;
+	}
+
+	.__finouw {
+    width: 100%;
+    height: 100%;
+    font-family: Sofia Pro Regular;
+    font-size: 14px;
+    line-height: 1.65;
+    color: #dcd6d5;
+	}
+
+	.__pruw {
+    width: 100%;
+    height: 100%;
+    font-family: Sofia Pro Regular;
+    font-size: 14px;
+    line-height: 1.65;
+    }
+
+	.__findowbgc {
+    height: 100%;
+    background-color: #0000ef;
+    margin-top: 10%;
+    padding-bottom: 10px;
+	}
+
+	.__prodowbgc {
+    height: 100%;
+    background-color: #0000ef;
+    margin-top: 10%;
+	}
+
+	.__fids {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    color: #ffffff;
+    margin-top: 0px;
+    font-family: Poppins-SemiBold;
+	}
+
+	.__cont {
+    width: 100%;
+    height: 100%;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 1;
+    color: #ffffff;
+    margin-top: 0px;
+    font-family: Poppins-SemiBold;
+	}
+
+	.__finwy {
+    width: 100%;
+    height: 100%;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: Poppins-SemiBold;
+    line-height: 1.52;
+    color: #0a0909;
+	}
+
+	.__finou {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-family: Sofia Pro Regular;
+    line-height: 1.65;
+    color: #585353;
+	}
+
+	.__finun {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Poppins-SemiBold;
+    line-height: 1.9;
+    color: #1f1d1d;
+    margin-left: 0px;
+	}
+
+	.__finom {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 1.65;
+    color: #585353;
+    margin-left: 0px;
+	}
+
+	.__finfr1 {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Poppins-SemiBold;
+    line-height: 1.9;
+    color: #1f1d1d;
+	}
+
+	.__finfr {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 1.65;
+    color: #585353;
+    margin-left: 0px;
+	}
+
+	.__finimgind {
+    margin-left: 0px;
+	}
+
+
+	.__fintp {
+    margin-left: 0px;
+	}
+
+	.__abuml {
+    margin-left: 0px;
+	}
+
+	.__abgla {
+    margin-left: 0px;
+	}
+
+	.__socion {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1.5px #4a4a4a;
+    border-radius: 50%;
+    padding: 11px;
+    text-align: center;
+	}
+
+	.__pt {
+    margin-left: 0%;
+	}
+
+	.__socion1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1.5px #4a4a4a;
+    border-radius: 50%;
+    padding: 11px;
+    text-align: center;
+    margin-left: 0px;
+	}
+
+	.__pf{
+		font-size: 11px;
+	}
+
+	.__socion2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1.5px #4a4a4a;
+    border-radius: 50%;
+    padding: 11px;
+    text-align: center;
+    margin-left: 0px;
+	}
+
+	.__pl {
+    margin-left: 0%;
+    font-size: 12px;
+	}
+
+	.__socion3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1.5px #4a4a4a;
+    border-radius: 50%;
+    padding: 11px;
+    text-align: center;
+    margin-left: 0px;
+	}
+
+	.__pm {
+    margin-left: 0%;
+    font-size: 12px;
+	}
+
+	.__smimg{
+		width: 20px;
+	}
 
 }
 

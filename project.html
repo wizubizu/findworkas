@@ -16,8 +16,6 @@
 	<!-- CUSTOM STYLES -->
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/switch.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/intro.css">
 	
 
 
@@ -29,7 +27,7 @@
 </head>
 <body class="" id="wrapper" >
 
-	<div class="__headerbgc" style="transform: translateY(0px);">
+	<div class="__findbgc" style="transform: translateY(0px);">
 
 		<!-- line and dot 1 -->
 		<div class="main-content">
@@ -196,8 +194,8 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse navbar-ex1-collapse">
 						<ul class="nav navbar-nav __navab">
-							<li class="__nava"><a class="" href="#">Extend Your Team</a></li>
-							<li class="__nava"><a class="" href="#">Findworka Pro</a></li>
+							<li class="__nava"><a class="__nav-item" href="#">Extend Your Team</a></li>
+							<li class="__nava"><a class="__nav-item" href="#">Findworka Pro</a></li>
 						</ul>
 						<!-- <form class="navbar-form navbar-left" role="search">
 							<div class="form-group">
@@ -206,10 +204,10 @@
 							<button type="submit" class="btn btn-default">Submit</button>
 						</form> -->
 						<ul class="nav navbar-nav navbar-right">
-							<li class="__nava"><a class="" href="index.html">Home </a></li>
-							<li class="__nava"><a class="" href="about.html">About </a></li>
-							<li class="__navac"><a class="" href="#">Contact </a></li>
-							<li class="__navsign"><a href="#" class="__navsign1">Sign in</a></li>
+							<li class="__nava"><a class="__nav-item" href="index.html">Home </a></li>
+							<li class="__nava"><a class="__nav-item" href="about.html">About </a></li>
+							<li class="__navac"><a class="__nav-item" href="#">Contact </a></li>
+							<li class="__navsignbg"><a href="#" class="__navsign1">Sign in</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div>
@@ -219,26 +217,10 @@
 				<div class="row">
 					<div class="col-md-2"></div>
 					<div class="col-md-10">
-						<div class="__mle">
-							<p class="__greattech tech">
-								Building great tech for ambitious<br>
-								<span class="slidingHorizontal">
-							       <span>people.</span>
-							       <span>ideas.</span>
-							       <span>companies.</span>
-							    </span>
-							</p>
+						<div class="__mle  tech">
+							<p class="__pros">The first step to working<br>on amazing projects! </p>
 
-							<p class="__findd">Findworka builds software product and extend engineering teams of ambitious companies</p>
-						
-							<div class="row __mtop slideanim">
-								<div class="col-md-4 col-xs-6">
-									<button type="submit" class="btn __hire">Start a project</button>
-								</div>
-								<div class="col-md-8 col-xs-6">
-									<button type="submit" class="btn __become">Become a Pro</button>
-								</div>
-							</div>
+							<p class="__fidy">Your next big adventure starts with a single step. Start by finding jobs perfectly matched to your unique talents.</p>
 						</div>
 					</div>
 				</div>
@@ -839,240 +821,140 @@
 			<div class="row">
 				<div class="col-md-2"></div>
 				<div class="col-md-10">
-					<div class="row">
-						<div class="col-md-5"></div>
-						<div class="col-md-7">
-							<p class="__watwedo slideanim">What we do</p>
-							<p class="__ourme slideanim">Findworka builds amazing software products, whether it is just an MVP or the n<sup>th</sup> version of your platform. We also supply development talents for your contact and full-time position.</p>
-						</div>
-					</div>
 
 					<div class="row">
-						<div class="__mle1">
-							<div class="col-md-6 col-sm-6">
-								<div class="row slideanim">
-									<div class="col-md-1 col-xs-1 col-sm-1">
-										<div class="__line">
-											<div class="__tikline"></div>
-										</div>
+						<div class="col-md-3"></div>
+						<div class="col-md-9">
+							<p class="__prol slideanim">Let’s get to know you!</p>
+							<p class="__fidou slideanim">Our  membership board of award-winning creatives and developers assures that clients always get the best projects, delivered on time!New Findworka pro members are the most respected and hardest working creators in the industry! - Change text!</p>
+
+
+							<form id="regForm" class="slideanim" action="" method="POST" role="form">
+								<!-- first -->
+								<div class="" id="First-Div">
+									<div class="form-group">
+										<label for="" class="__fidfor">What talent do you need?</label>
+										<select name="" id="input" class="form-control __fomin" required="required">
+											<option value="Select"></option>
+											<option value="">UI/UX</option>
+											<option value="">Front-End Developer</option>
+											<option value="">Back-End Developer</option>
+											<option value="">Dev Ops</option>
+										</select>
 									</div>
-									<div class="col-md-11 col-xs-10 col-sm-11">
-										<div class="row">
-											<div class="col-md-2 col-xs-2">
-												<p class="__no1">01</p> 
-											</div>
-											<div class="col-md-10 col-xs-10">
-												<p class="__web">DEVELOPMENT</p>
-											</div>
-										</div>
-										<p class="__watever">Whatever web application, or development work you need to do, we have the guys skilled in the proper stack for it!</p>
-										<br>
-										<p class="__front">Websites</p>
-										<p class="__front">Web apps</p>
-										<p class="__front">Android apps.</p>
-										<p class="__front">ios apps.</p>
+									<button type="button" class="__fombtn" onclick="showNextForm()">Next</button>
+								</div>
+
+								<!-- second -->
+								<div class="" id="Second-Div" style="display: none;">
+									
+									<div class="form-group">
+										<label for="" class="__fidfor">Tell us about your Project</label>
+										<textarea name="" id="input" class="form-control __fomin" rows="3" required="required"></textarea>
+									</div>
+
+									<div class="form-group">
+										<label for="" class="__fidfor">Add links to show similar works <span style="color: ">(optional)</span></label>
+										<input type="text" class="form-control __fomin" placeholder=""  name="">
+									</div>
+
+									<button type="button" class="__fombtn" onclick="showPrevForm()">Previous</button>
+								    <button type="submit" class="__fombtn" onclick="showNextForm()">Submit</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+		<div class="__prodowbgc">
+			<div class="container">
+				
+				<div class="row slideanim">
+					<div class="col-md-6"></div>
+					<div class="col-md-6">
+						<div class="__aboml">
+							<p class="__prowy">Why Findworka?</p>
+							<p class="__prou">Our  membership board of award-winning creatives and developers assures that clients always get the best projects, delivered on time!New Findworka pro members are the most respected and hardest working creators in the industry! - Change text!</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-3"></div>
+					<div class="col-md-9">
+						<div class="row">
+							<div class="col-md-6 col-sm-6 slideanim">
+								<div class="row __finml">
+									<div class="col-md-2 col-xs-2">
+										<img src="assets/img/unsurw.svg" class="__finimg">
+									</div>
+									<div class="col-md-10 col-xs-10">
+										<p class="__prorc">REPUTABLE CLIENTS</p>
+										<p class="__prom">Our  membership board of award-winning creatives and developers assures that clients always get the best projects, delivered on time!New Findworka pro members are the most respected and hardest working creators in the industry! - Change text!</p>
 									</div>
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-6 slideanim">
-								<div class="row __des">
-									<div class="col-md-1 col-xs-1 col-sm-1">
-										<div class="__line">
-											<div class="__tikline"></div>
-										</div>
+								<div class="row __finmt">
+									<div class="col-md-2 col-xs-2">
+										<img src="assets/img/compititive.svg" class="__finimg">
 									</div>
-									<div class="col-md-11 col-xs-10 col-sm-11">
-										<div class="row">
-											<div class="col-md-2 col-xs-2">
-												<p class="__no1">02</p>
-											</div> 
-											<div class="col-md-10 col-xs-10">
-												<p class="__desi">DESIGN</p>
-											</div>
-										</div>
-										<p class="__ourmem">From screen to screen, we make brilliant designs that that tell compelling stories.</p>
-										<p class="__front">Product Design</p>
-										<p class="__front">Graphic Design</p>
-										<p class="__front">Illustration</p>
-										
+									<div class="col-md-10 col-xs-10">
+										<p class="__proc">COMPETITIVE PAY</p>
+										<p class="__proc1">Our  membership board of award-winning creatives and developers assures that clients always get the best projects, delivered on time!New Findworka pro members are the most respected and hardest working creators in the industry! - Change text!</p>
 									</div>
 								</div>
 							</div>
 						</div>
+
+						<div class="row">
+							<div class="col-md-6 col-sm-6 slideanim">
+								<div class="row __finml">
+									<div class="col-md-2 col-xs-2">
+										<img src="assets/img/friendw.svg" class="__finimg">
+									</div>
+									<div class="col-md-10 col-xs-10">
+										<p class="__prorc">FRIENDLY RATES</p>
+										<p class="__prom">Our  membership board of award-winning creatives and developers assures that clients always get the best projects, delivered on time!New Findworka pro members are the most respected and hardest working creators in the industry! - Change text!</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6 slideanim">
+								<div class="row __finmt">
+									<div class="col-md-2 col-xs-2">
+										<img src="assets/img/industryw.svg" class="__finimg">
+									</div>
+									<div class="col-md-10 col-xs-10">
+										<p class="__proc">WORK REMOTE</p>
+										<p class="__proc1">Our  membership board of award-winning creatives and developers assures that clients always get the best projects, delivered on time!New Findworka pro members are the most respected and hardest working creators in the industry! - Change text!</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
 					</div>
-
-					
-					<div class="__mle1">
-						<div class=" __posab">
-							<div>
-								<div class="row slideanim">
-									<div class="col-md-1 col-xs-1 col-sm-1">
-										<div class="__line">
-											<div class="__tikline"></div>
-										</div>
-									</div>
-									<div class="col-md-11 col-xs-10 col-sm-11">
-										<div class="row">
-											<div class="col-md-2 col-xs-2">
-												<p class="__no1">03</p> 
-											</div>
-											<div class="col-md-10 col-xs-10">
-												<p class="__mana">PROJECT MANAGEMENT</p>
-											</div>
-										</div>
-										<p class="__mang">We take your project from start to finish and ensure that you have a world-class product fully crafted for purpose.</p>
-										<p class="__front">Project managers</p>
-										<p class="__front">Product managers</p>
-										<p class="__front">Quality Control Analysts</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div>
-							<div class="row __des1 slideanim">
-								<div class="col-md-1 col-xs-1 col-sm-1">
-									<div class="__line">
-										<div class="__tikline"></div>
-									</div>
-								</div>
-								<div class="col-md-11 col-xs-10 col-sm-11">
-									<div class="row">
-										<div class="col-md-2 col-xs-2">
-											<p class="__no1">04</p>
-										</div> 
-										<div class="col-md-10 col-xs-10">
-											<p class="__webmo">WE DEPLOY TALENT</p>
-										</div>
-									</div>
-									<p class="__webm">Findworka Pros is our elite squad of pre-vetted software developers and product designers. Our Pros are ready to extend your team for full-time and contact positions.</p>
-									<p class="__front">Front-end developers.</p>
-									<p class="__front">Back-end developers.</p>
-									<p class="__front">Mobile app developers.</p>
-									<p class="__front">UI/UX designers.</p>
-									<p class="__front">DevOps engineers.</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="__spreahed slideanim">
-							<p class="__sprea">Spreading our wings</p>
-							<p class="__witp">With partners and clients in America, Europe, and Nigeria, Findworka keeps delivering amazing, effective service worldwide!</p>
-						</div>
-
-						<div class="__findmap slideanim">
-							<img src="assets/img/map.svg">
-							<div class="__pulset">
-								<span class="pulse __pulse1 red-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Togo." ></span>
-								<span class="pulse __pulse2 red-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Togo1.""></span>
-								<span class="pulse __pulse3 red-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Togo2.""></span>
-								<span class="pulse __pulse4 red-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Togo3.""></span>
-								<span class="pulse __pulse5 red-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Togo4.""></span>
-								<span class="pulse __pulse6 red-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Togo5.""></span>
-								<span class="pulse __pulse7 red-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Togo6.""></span>
-							</div>
-							
-						</div>
-
-						<div class="__spreahed slideanim">
-							<p class="__sprea">Our happy clients</p>
-							<p class="__witp">We are trusted by some of the world’s creative and innovative companies.Why? Because our service is always top-notch!</p>
-
-							<div id="carousel-example" class="carousel slide team slideanim" data-ride="carousel">
-                        
-                        Wrapper for slides
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <div class="row">
-                                    <div class="col-sm-3 col-xs-6">
-                                        <img src="assets/img/budgit.png" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="col-sm-3 col-xs-6">
-                                        <img src="assets/img/cchub-logo.png" class="img-responsive" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="col-sm-3 col-xs-6">
-                                        <img src="assets/img/Afrolynk-Logo.png" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="col-sm-3 col-xs-6">
-                                        <img src="assets/img/reebok.png" class="img-responsive" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                           <div class="item">
-                                <div class="row">
-                                    <div class="col-sm-3 col-xs-6">
-                                        <img src="assets/img/budgit.png" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="col-sm-3 col-xs-6">
-                                        <img src="assets/img/cchub-logo.png" class="img-responsive" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="col-sm-3 col-xs-6">
-                                        <img src="assets/img/Afrolynk-Logo.png" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="col-sm-3 col-xs-6">
-                                        <img src="assets/img/reebok.png" class="img-responsive" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                     
-                        </div>
-
-                        <div class="controls">
-                            <a class="left btn" href="#carousel-example" data-slide="prev" style="color: #f46862;"><img src="assets/img/left-arrow.svg"></a>&nbsp; &nbsp;&nbsp;
-                            <a class="right btn " href="#carousel-example" data-slide="next" style="color: #585353;"><img src="assets/img/right-arrow.svg"></a>
-                        </div>
-                    </div>
-                
-
-					<div class="">
-						<p class="__wkp"><a href=""> Work with us <img src="assets/img/right-arrow.svg" class="__wkimg"></a></p>
-					</div>
-						</div>
-					</div>
-
-					
 				</div>
 			</div>
 		</div>
 
-		<div class="__bottombgimg">
-			<div class="container">
-				<div class="row slideanim">
-					<div class="col-md-5"></div>
-					<div class="col-md-7">
-						<div class="__extendlef">
-							<p class="__extp">Extend Your Team</p>
-							<p class="__extp1">Extend Your Team is a premium consulting service that provides hand-picked placements from our global community of award-winning talent.</p>
+		<div class="container slideanim">
+			<div class="row __fintp">
+				<div class="col-md-3"></div>
+				<div class="col-md-9">
+					<p class="__pron slideanim">Not sure about beign a pro?</p>
+					<p class="__prouw slideanim">Our  membership board of award-winning creatives and developers assures that clients always get the best projects, delivered on time!New Findworka pro members are the most respected and hardest working creators in the industry! - Change text!</p>
 
-							<form action="" method="POST" role="form">
-								<button type="submit" class="btn __expbtn1">Extend Your Team</button>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="__buttbgc">
-			<div class="container">
-				<div class="row slideanim">
-					<div class="col-md-5"></div>
-					<div class="col-md-7">
-						<div class="__extendlef">
-							<p class="__extlet">Let’s bring amazing ideas to life!</p>
-							<p class="__extp1">Extend Your Team is a premium consulting service that provides hand-picked placements from our global community of award-winning talent.</p>
-							<form action="" method="POST" role="form">
-								<button type="submit" class="btn __expbtn1">Become a  Findworka Pro</button>
-							</form>
+					<p class="__prouw slideanim">visit <a href=""><span class="__prosp">saucecode.xyz</span></a> for the </p>
 
-							<p class="__extnot">Not a pro? You can hire the best talent <span class="__extnotsp"><a href="">here</a></span>, or better still, check out our awesome pool of talent on <span class="__extnotsp"><a href="">www.saucecode.xyz</a></span></p>
-						</div>
-					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<footer>
+	<footer class="__abfotbg">
 		<div class="container">
 			<div class="row __dowt">
 				<div class="col-md-10 col-sm-11">
@@ -1100,9 +982,9 @@
 					<div class="row">
 						<div class="col-xs-4 col-sm-2"></div>
 						<div class="col-xs-4 col-sm-8">
-							<p class="__dowimg slideanim"><a href=""><img src="assets/img/twitter.svg"></a></p>
-							<p class="__dowimg slideanim"><a href=""><img src="assets/img/facebook.svg"></a></p>
-							<p class="__dowimg slideanim"><a href=""><img src="assets/img/linkedin.svg"></a></p>
+							<p class="__fotimg slideanim"><a href=""><img src="assets/img/twitterblack.svg"></a></p>
+							<p class="__fotimg slideanim"><a href=""><img src="assets/img/facebookblack.svg"></a></p>
+							<p class="__fotimg slideanim"><a href=""><img src="assets/img/linkedinblack.svg"></a></p>
 						</div>
 						<div class="col-xs-4 col-sm-2"></div>
 					</div>

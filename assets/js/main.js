@@ -100,83 +100,6 @@ $(window).scroll(function() {
 
 // end
 
-// NEXT STEP FORM
-
-var currentTab = 0; // Current tab is set to be the first tab (0)
-showTab(currentTab); // Display the crurrent tab
-
-function showTab(n) {
-  // This function will display the specified tab of the form...
-  var x = document.getElementsByClassName("tab");
-  x[n].style.display = "block";
-  //... and fix the Previous/Next buttons:
-  if (n == 0) {
-    document.getElementById("prevBtn").style.display = "none";
-  } else {
-    document.getElementById("prevBtn").style.display = "inline";
-  }
-  if (n == (x.length - 1)) {
-    document.getElementById("nextBtn").innerHTML = "Submit";
-  } else {
-    document.getElementById("nextBtn").innerHTML = "Next";
-  }
-  //... and run a function that will display the correct step indicator:
-  fixStepIndicator(n)
-}
-
-function nextPrev(n) {
-  // This function will figure out which tab to display
-  var x = document.getElementsByClassName("tab");
-  // Exit the function if any field in the current tab is invalid:
-  if (n == 1 && !validateForm()) return false;
-  // Hide the current tab:
-  x[currentTab].style.display = "none";
-  // Increase or decrease the current tab by 1:
-  currentTab = currentTab + n;
-  // if you have reached the end of the form...
-  if (currentTab >= x.length) {
-    // ... the form gets submitted:
-    document.getElementById("regForm").submit();
-    return false;
-  }
-  // Otherwise, display the correct tab:
-  showTab(currentTab);
-}
-
-function validateForm() {
-  // This function deals with validation of the form fields
-  var x, y, i, valid = true;
-  x = document.getElementsByClassName("tab");
-  y = x[currentTab].getElementsByClassName("__fomin");
-  // A loop that checks every input field in the current tab:
-  for (i = 0; i < y.length; i++) {
-    // If a field is empty...
-    if (y[i].value == "") {
-      // add an "invalid" class to the field:
-      y[i].className += " invalid";
-      // and set the current valid status to false
-      valid = false;
-    }
-  }
-  // If the valid status is true, mark the step as finished and valid:
-  if (valid) {
-    document.getElementsByClassName("step")[currentTab].className += " finish";
-  }
-  return valid; // return the valid status
-}
-
-function fixStepIndicator(n) {
-  // This function removes the "active" class of all steps...
-  var i, x = document.getElementsByClassName("step");
-  for (i = 0; i < x.length; i++) {
-    x[i].className = x[i].className.replace(" active", "");
-  }
-  //... and adds the "active" class on the current step:
-  x[n].className += " active";
-}
-// END
-
-
 // only number
 
     $(document).ready(function () {
@@ -193,6 +116,163 @@ function fixStepIndicator(n) {
 
 // end
 
+
+//for the next and previous form 
+function showNextForm() {
+            $("#First-Div").css("display", "none");
+            $("#Second-Div").css("display", "block");
+        };
+
+        function showNextForm1() {
+            $("#Second-Div").css("display", "none");
+            $("#Third-Div").css("display", "block");
+        };
+
+        function showNextForm2() {
+            $("#Third-Div").css("display", "none");
+            $("#Five-Div").css("display", "block");
+        };
+
+        function showNextForm3() {
+            $("#Forth-Div").css("display", "none");
+            $("#Five-Div").css("display", "block");
+        };
+
+        // previous 
+        function showPrevForm() {
+            $("#Second-Div").css("display", "none");
+            $("#First-Div").css("display", "block");
+        };
+
+        function showPrevForm1() {
+            $('#Third-Div').css("display", "none");
+            $('#Second-Div').css("display", "block");
+            $('#First-Div').css("display", "none");
+            $("#Five-Div").css("display", "none");
+            $("#Forth-Div").css("display", "none");
+        };
+
+        function showPrevForm2() {
+            $("#Forth-Div").css("display", "none");
+            $("#Third-Div").css("display", "block");
+        };
+// end
+
+
+
+// tooltip
+
+$(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();   
+        });
+
+
+        $(function () {
+          $('[data-toggle="popover"]').popover()
+        })
+
+// end
+
+
+// clock js
+
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var Clock = function () {
+  function Clock(id) {
+    _classCallCheck(this, Clock);
+
+    this.timezone = parseInt(document.getElementById(id).dataset.timezone);
+
+    if (this.isDST(new Date())) {
+      this.timezone += 1;
+    }
+
+    this.handSeconds = document.querySelector("#" + id + " .hand.seconds");
+    this.handMinutes = document.querySelector("#" + id + " .hand.minutes");
+    this.handHours = document.querySelector("#" + id + " .hand.hours");
+
+    this.getTime();
+    this.cycle();
+  }
+
+  _createClass(Clock, [{
+    key: "isDST",
+    value: function isDST(now) {
+      var jan = new Date(now.getFullYear(), 0, 1);
+      var jul = new Date(now.getFullYear(), 6, 1);
+      var dst = Math.max(jan.getTimezoneOffset(), jul.getTimezoneOffset());
+
+      return now.getTimezoneOffset() < dst;
+    }
+  }, {
+    key: "draw",
+    value: function draw(hours, minutes, seconds) {
+      var drawSeconds = seconds / 60 * 360 + 90;
+      var drawMinutes = minutes / 60 * 360 + 90;
+
+      if (hours >= 12) {
+        drawHours = hours - 12;
+      }
+
+      var drawHours = hours / 12 * 360 + 90;
+
+      this.handSeconds.style.transform = "rotate(" + drawSeconds + "deg)";
+      this.handMinutes.style.transform = "rotate(" + drawMinutes + "deg)";
+      this.handHours.style.transform = "rotate(" + drawHours + "deg)";
+
+      // fix for animation bump on when clock hands hit zero
+      if (drawSeconds === 444 || drawSeconds === 90) {
+        this.handSeconds.style.transition = "all 0s ease 0s";
+      } else {
+        this.handSeconds.style.transition = "all 0.05s cubic-bezier(0, 0, 0.52, 2.51) 0s";
+      }
+    }
+  }, {
+    key: "getTime",
+    value: function getTime() {
+      var now = new Date();
+
+      var hours = now.getUTCHours() + this.timezone;
+      var minutes = now.getUTCMinutes();
+      var seconds = now.getUTCSeconds();
+
+      this.draw(hours, minutes, seconds);
+    }
+  }, {
+    key: "cycle",
+    value: function cycle() {
+      setInterval(this.getTime.bind(this), 1000);
+    }
+  }]);
+
+  return Clock;
+}();
+
+new Clock('fwka');
+new Clock('fwka1');
+new Clock('fwka2');
+
+// this is just a rough draft for some effects
+// const shadowOkinawa = document.querySelector("#okinawa .shadow");
+// const shadowSeattle = document.querySelector("#seattle .shadow");
+// const shadowAmalfi = document.querySelector("#amalfi .shadow");
+
+// const handleMouseMove = (event) => {
+//   const percent = parseInt((100 * event.pageX) / window.innerWidth);
+//   const drawShadow = (0.22 * percent) - 50;
+
+//   shadowOkinawa.style.transform = `rotate(${drawShadow}deg)`;
+//   shadowSeattle.style.transform = `rotate(${drawShadow}deg)`;
+//   shadowAmalfi.style.transform = `rotate(${drawShadow}deg)`;
+// };
+
+// document.onmousemove = handleMouseMove;
+
+// end
 
 // end
 
