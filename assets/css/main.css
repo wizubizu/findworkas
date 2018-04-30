@@ -445,20 +445,7 @@ i#closebtn {
 
 /*texting animation*/
 
-.path {
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  animation: dash 5s linear alternate infinite;
-}
 
-@keyframes dash {
-  from {
-    stroke-dashoffset: 1000;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
-}
 
 .icon {
   display: inline-block;
@@ -2436,4 +2423,64 @@ margin-left: 57px;
     margin-left: 3.5%;
 }
 
+.__contops{
+	margin-top: 134px;
+}
+
 /*end*/
+
+.map{
+	padding-top: 5%;
+}
+
+
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear alternate infinite;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.__post{
+	position: absolute;
+    top: 5%;
+    margin-left: 7.7%;
+}
+
+.__conttp {
+    margin-top: 25%;
+    margin-left: 0px;
+}
+
+.__conlp{
+	margin-top: 10%;
+}
+
+
+.__cnava {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Poppins-Medium;
+    line-height: 1.5;
+    color: #585353;
+}
+
+
+.__cnavsignbg {
+    width: 104px;
+    height: 41px;
+    background-color: transparent;
+    border: solid 2px #585353;
+    line-height: 7.29;
+    color: #585353;
+    font-size: 14px;
+    margin-top: 5px;
+}

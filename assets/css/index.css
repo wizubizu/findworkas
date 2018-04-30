@@ -333,6 +333,10 @@
     margin-top: 10%;
     margin-left: -48px;
 	}
+	.__conttp {
+    margin-top: 10%;
+    margin-left: -48px;
+	}
 
 	.__finwe {
     width: 100%;
@@ -985,6 +989,11 @@
 	}
 
 	.__fintp {
+    margin-top: 3%;
+    margin-left: 0px;
+	}
+
+	.__conttp {
     margin-top: 3%;
     margin-left: 0px;
 	}
@@ -2025,6 +2034,9 @@
 
 
 	.__fintp {
+    margin-left: 0px;
+	}
+	.__conttp {
     margin-left: 0px;
 	}
 
