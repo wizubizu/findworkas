@@ -631,7 +631,7 @@ svg path {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 778px;
+    min-height: 638px;
 }
 
 .__findbgc {
@@ -640,7 +640,7 @@ svg path {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 778px;
+    min-height: 638px;
 }
 .__contactbgc {
   background:linear-gradient(100deg, rgba(255, 255, 255,0.9) 50%, rgba(255, 255, 255,0.9) 50%), url(../img/mapc.svg);
@@ -648,7 +648,7 @@ svg path {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 778px;
+    min-height: 638px;
 }
 
 .__navbgc{
@@ -1091,13 +1091,13 @@ margin-left: 57px;
 
 .__posab{
 	position: absolute;
-    margin-top: -34%;
+    margin-top: -11%;
     margin-left: 4px;
 }
 
 .__des1 {
-        margin-left: 320px;
-    margin-top: 18%;
+    margin-left: -43px;
+    margin-top: 27%;
 }
 
 .__mang{
@@ -1209,42 +1209,42 @@ margin-left: 57px;
 
 .__pulse1{
 	position: absolute;
-    bottom: 31%;
+    bottom: 32.1%;
     margin-left: 12%;
 }
 .__pulse2{
 	position: absolute;
-    bottom: 32.7%;
+    bottom: 33.7%;
     margin-left: 42%;
 }
 .__pulse3{
 	position: absolute;
-    bottom: 32.7%;
+    bottom: 33.5%;
     margin-left: 52%;
 }
 
 .__pulse4{
 	position: absolute;
-    bottom: 32.8%;
+    bottom: 33.7%;
     margin-left: 73%;
 }
 
 .__pulse5{
 	position: absolute;
-    bottom: 30.4%;
+    bottom: 31.4%;
     margin-left: 41%;
 }
 
 .__pulse6{
 	position: absolute;
-    bottom: 26.4%;
+    bottom: 27.4%;
     margin-left: 41.3%;
 }
 
 .__pulse7{
 	position: absolute;
-    bottom: 27.8%;
-    margin-left: 54.3%;
+    bottom: 28.6%;
+    margin-left: 53%;
 }
 
 .__findmap{
@@ -2440,6 +2440,15 @@ margin-left: 57px;
   animation: dash 5s linear alternate infinite;
 }
 
+/*for the map to stay after the animation comment this out*/
+/*.path {
+stroke-dasharray: 1000;
+animation: dash 5s linear;
+animation-fill-mode: forwards;
+}*/
+
+/*end*/
+
 @keyframes dash {
   from {
     stroke-dashoffset: 1000;
@@ -2456,7 +2465,7 @@ margin-left: 57px;
 }
 
 .__conttp {
-    margin-top: 25%;
+    margin-top: 18%;
     margin-left: 0px;
 }
 
@@ -2498,8 +2507,14 @@ margin-left: 57px;
 }
 
 .__sigbtn{
-	width: 360px;
+	width: 356px;
   height: 50px;
   background-color: #0000ef;
   color: #ffffff;
+}
+
+.__sigbtn:hover{
+  background-color: transparent;
+  color: #0000ef;
+  border:1px solid #0000ef;
 }
