@@ -460,6 +460,8 @@ i#closebtn {
   fill: #111;
 }
 
+
+
 /*svg:hover path { 
     fill: #fce57e;
 }*/
@@ -756,7 +758,7 @@ svg path {
 }
 
 .__mle{
-	margin-left: 11.5%;
+	margin-left: 11.4%;
 }
 .__mle1{
 	margin-left: 11%;
@@ -1414,7 +1416,7 @@ margin-left: 57px;
 }
 
 .__disis {
-    width: 308px;
+    width: 374px;
   height: 162px;
     font-family: Sofia Pro Regular;
     font-size: 20px;
@@ -2118,14 +2120,14 @@ margin-left: 57px;
     font-weight: 600;
     line-height: 1.5;
     color: #0a0909;
-    margin-top: 70px;
+    margin-top: 5px;
     font-family: Poppins-SemiBold;
 }
 
 
 .__contw {
     width: 641px;
-    height: 128px;
+    height: 100px;
     font-family: Sofia Pro Regular;
     font-size: 20px;
     line-height: 1.35;
@@ -2153,6 +2155,10 @@ margin-left: 57px;
   text-align: center;
 }
 
+.__socion:hover{
+	border: solid 1.5px #00ABE3;
+}
+
 .__pt{
     margin-left: 28%;
 }
@@ -2168,6 +2174,10 @@ margin-left: 57px;
   margin-left: -40px;
 }
 
+.__socion1:hover{
+	border: solid 1.5px #4060A5;
+}
+
 .__socion2{
 	width: 150.8px;
   height: 150.8px;
@@ -2177,6 +2187,10 @@ margin-left: 57px;
   padding: 37px;
   text-align: center;
   margin-left: -82px;
+}
+
+.__socion2:hover{
+	border: solid 1.5px #0094BC;
 }
 
 .__pl{
@@ -2192,6 +2206,10 @@ margin-left: 57px;
   padding: 37px;
   text-align: center;
   margin-left: -130px;
+}
+
+.__socion3:hover{
+	border: solid 1.5px #347235;
 }
 
 .__pm{
@@ -2429,8 +2447,18 @@ margin-left: 57px;
 
 /*end*/
 
+/*map animation*/
 .map{
 	padding-top: 5%;
+}
+
+.__mapd {
+    background: rgba(206, 206, 206, 0.35);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0;
 }
 
 
@@ -2458,14 +2486,16 @@ animation-fill-mode: forwards;
   }
 }
 
+/*end*/
+
 .__post{
 	position: absolute;
-    top: 5%;
-    margin-left: 7.7%;
+    top: 0%;
+    margin-left: 6.9%;
 }
 
 .__conttp {
-    margin-top: 18%;
+    margin-top: 6%;
     margin-left: 0px;
 }
 
@@ -2494,6 +2524,12 @@ animation-fill-mode: forwards;
     margin-top: 5px;
 }
 
+.__cnavsignbg:hover{
+	background-color: transparent;
+    border: solid 1px #585353;
+    color: #585353;
+}
+
 
 .__sig{
 	font-size: 60px;
@@ -2517,4 +2553,9 @@ animation-fill-mode: forwards;
   background-color: transparent;
   color: #0000ef;
   border:1px solid #0000ef;
+}
+
+.__clml{
+	margin-left: -3px;
+	margin-top: 4.2%;
 }
