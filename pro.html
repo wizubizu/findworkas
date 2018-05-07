@@ -218,9 +218,9 @@
 					<div class="col-md-2"></div>
 					<div class="col-md-10">
 						<div class="__mle  tech">
-							<p class="__pros">We turn ideas<br>into amazing products.</p>
+							<p class="__fids">Join our network of<br>A-list developers</p>
 
-							<p class="__fidy">Whether you want an MVP or the n<sup>th</sup> version of your product, we have a team of dedicated product designers, software engineers and project managers that are ready to deliver happiness.</p>
+							<p class="__fidy">By becoming a Findworka Pro, you get premium access to the best software development projects.</p>
 						</div>
 					</div>
 				</div>
@@ -825,13 +825,33 @@
 					<div class="row">
 						<div class="col-md-3"></div>
 						<div class="col-md-9">
-							<p class="__prol slideanim">Can we meet you?</p>
-							<p class="__fidou slideanim">Everyday, we build amazing products for different clients across the world regardless of the client's location, size and preferred tech stack. Kindly fill the form below and let's start talking.</p>
+							<!-- <p class="__fidh slideanim">Hire  the top 3% talent<br>for your projects! </p>
+							<p class="__fidou slideanim">Our  membership board of award-winning creatives and developers assures that clients always get the best projects, delivered on time!New Findworka pro members are the most respected and hardest working creators in the industry! - Change text!</p> -->
 
+							
+							
+							<form id="regForm1" class="slideanim" action="" method="POST" role="form">
 
-							<form id="regForm" class="slideanim" action="" method="POST" role="form">
-								<!-- first -->
 								<div class="" id="First-Div">
+
+									<div class="form-group">
+										<label for="" class="__fidfor">Are you applying as a designer or developer</label>
+										<select name="" id="input" class="form-control __fomin  __selectind">
+											<option value="select">Select</option>
+											<option value="designer">Designer</option>
+											<option value="developer">Developer</option>
+										</select>
+									</div>
+									
+
+									<button type="button" id="continuebtn" class="__fombtn" onclick="showNextForm()">Continue</button>
+								</div>
+
+								<!-- form for designer -->
+
+								<div class="" id="Second-Div" style="display: none;">
+									<h3 class="f3">Designer Form</h3>
+
 									<div class="form-group">
 										<label for="" class="__fidfor">Name</label>
 										<input type="text" class="form-control __fomin" placeholder="first name, last name"  name="">
@@ -847,29 +867,104 @@
 										<input type="text" class="form-control  __fomin" name="quantity" id="quantity" placeholder="+234"/><span id="errmsg"></span>
 									</div>
 
-									<button type="button" class="__fombtn" onclick="showNextForm()">Continue</button>
+									<div class="form-group">
+										<label for="" class="__fidfor">Behance Profile URL</label>
+										<input type="text" class="form-control __fomin" placeholder=""  name="">
+									</div>
+
+
+									<button type="button" class="__fombtn" onclick="showPrevForm()">Previous</button>
+									<button type="button" class="__fombtn" onclick="showNextForm1()">Continue</button>
 								</div>
 
-								<!-- second -->
-								<div class="" id="Second-Div" style="display: none;">
-
-									<div class="form-group ">
-										<label for="" class="__fidfor">Skype ID</label>
-								    	<input type="text" class="form-control __fomin" placeholder="Skype ID..."  name="">
-								    </div>
-									
+								<div class="" id="Third-Div" style="display: none;">
 									<div class="form-group">
-										<label for="" class="__fidfor">Tell us about your Project</label>
+										<label for="" class="__fidfor">Links to your past project</label>
+										<input type="text" class="form-control __fomin" placeholder=""  name="">
+									</div>
+
+									<div class="form-group">
+										<label for="" class="__fidfor">You’ve been a product designer for how many years?</label>
 										<textarea name="" id="input" class="form-control __fomin" rows="3" required="required"></textarea>
 									</div>
 
 									<div class="form-group">
-										<label for="" class="__fidfor">Add links to show similar works <span style="color: ">(optional)</span></label>
+										<label for="" class="__fidfor">Tell us about your approach</label>
+										<textarea name="" id="input" class="form-control __fomin" rows="3" required="required"></textarea>
+									</div>
+
+									<div class="form-group">
+										<label for="" class="__fidfor">What’s your favourite tool</label>
+										<textarea name="" id="input" class="form-control __fomin" rows="3" required="required"></textarea>
+									</div>
+
+									<div class="form-group __fileup">
+										<label for="" class="__fidfor">Attach CV</label>
+										<!-- upload -->
+										
+								        <input type="text" id="fake-input4" name="" class="form-control4 form-input4 form-style-fake4" placeholder="Upload your CV" readonly>
+								        <input type="file" id="base-input4" name="" class="form-control4 form-input4 form-style-base4">
+								        <!-- end -->
+									</div>
+
+									<button type="button" class="__fombtn" onclick="showPrevForm1()">Previous</button>
+								    <button type="submit" class="__fombtn"">Submit</button>
+								</div>
+
+
+								<!-- form for developer -->
+
+								<div class="" id="Forth-Div" style="display: none;">
+									<h3 class="f3">Developer Form</h3>
+
+									<div class="form-group">
+										<label for="" class="__fidfor">Name</label>
+										<input type="text" class="form-control __fomin" placeholder="first name, last name"  name="">
+									</div>
+
+									<div class="form-group">
+										<label for="" class="__fidfor">Email Address</label>
+										<input type="email" class="form-control  __fomin" name="" id="" placeholder="">
+									</div>
+
+									<div class="form-group">
+										<label for="" class="__fidfor">Phone Number</label>
+										<input type="text" class="form-control  __fomin" name="quantity" id="quantity" placeholder="+234"/><span id="errmsg"></span>
+									</div>
+
+
+									<button type="button" class="__fombtn" onclick="showPrevForm()">Previous</button>
+									<button type="button" class="__fombtn" onclick="showNextForm3()">Continue</button>
+								</div>
+
+								<div class="" id="Five-Div" style="display: none;">
+
+									<div class="form-group">
+										<label for="" class="__fidfor">LinkedIn/Github Profile URLL</label>
 										<input type="text" class="form-control __fomin" placeholder=""  name="">
 									</div>
 
-									<button type="button" class="__fombtn" onclick="showPrevForm()">Previous</button>
-								    <button type="submit" class="__fombtn" onclick="showNextForm()">Submit</button>
+									<div class="form-group">
+										<label for="" class="__fidfor">Links to your past project</label>
+										<input type="text" class="form-control __fomin" placeholder=""  name="">
+									</div>
+
+									<div class="form-group">
+										<label for="" class="__fidfor">You’ve been a developer for how many years?</label>
+										<textarea name="" id="input" class="form-control __fomin" rows="3" required="required"></textarea>
+									</div>
+
+									<div class="form-group __fileup">
+										<label for="" class="__fidfor">Attach CV</label>
+										<!-- upload -->
+										
+								        <input type="text" id="fake-input5" name="" class="form-control5 form-input5 form-style-fake5" placeholder="Upload your CV" readonly>
+								        <input type="file" id="base-input5" name="" class="form-control5 form-input5 form-style-base5">
+								        <!-- end -->
+									</div>
+
+									<button type="button" class="__fombtn" onclick="showPrevForm2()">Previous</button>
+								    <button type="submit" class="__fombtn"">Submit</button>
 								</div>
 							</form>
 						</div>
@@ -879,108 +974,87 @@
 		</div>
 
 		
-		<div class="__prodowbgc">
-			<div class="container">
-				
-				<div class="row slideanim">
-					<div class="col-md-6"></div>
-					<div class="col-md-6">
-						<div class="__aboml">
-							<p class="__prowy">Magic in 4 steps</p>
-							<p class="__prou">We have a four-step development process: We Listen, We Execute, We Deploy and You Smile.</p>
-						</div>
+
+		<div class="container">
+			
+			<div class="row slideanim">
+				<div class="col-md-6"></div>
+				<div class="col-md-6">
+					<div class="__aboml">
+						<p class="__finwy">Why Findworka?</p>
+						<p class="__finou">We are a team of developers, designers and project managers. We also have our skin in the game and you'll enjoy working with us.</p>
 					</div>
 				</div>
+			</div>
 
-				<div class="row">
-					<div class="col-md-3"></div>
-					<div class="col-md-9">
-						<div class="row">
-							<div class="col-md-6 col-sm-6 slideanim">
-								<div class="row __finml">
-									<div class="col-md-2 col-xs-2">
-										<img src="assets/img/unsurw.svg" class="__finimg">
-									</div>
-									<div class="col-md-10 col-xs-10">
-										<p class="__prorc">WE LISTEN</p>
-										<p class="__prom">Tell us what you want.</p>
-									</div>
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-9">
+					<div class="row">
+						<div class="col-md-6 col-sm-6 slideanim">
+							<div class="row __finml">
+								<div class="col-md-2 col-xs-2">
+									<img src="assets/img/unsur.svg" class="__finimg">
 								</div>
-							</div>
-							<div class="col-md-6 col-sm-6 slideanim">
-								<div class="row __finmt">
-									<div class="col-md-2 col-xs-2">
-										<img src="assets/img/compititive.svg" class="__finimg">
-									</div>
-									<div class="col-md-10 col-xs-10">
-										<p class="__proc">WE EXECUTE</p>
-										<p class="__proc1">We research, form a team and get to work.</p>
-									</div>
+								<div class="col-md-10 col-xs-10">
+									<p class="__finun">PREMIUM PROJECTS.</p>
+									<p class="__finom">We are very choosy about the kind of projects we manage. The typical Findworka project is at the intersection of being mission critical, the need for great tech, an ambitious client and a decent budget.</p>
 								</div>
 							</div>
 						</div>
-
-						<div class="row">
-							<div class="col-md-6 col-sm-6 slideanim">
-								<div class="row __finml">
-									<div class="col-md-2 col-xs-2">
-										<img src="assets/img/friendw.svg" class="__finimg">
-									</div>
-									<div class="col-md-10 col-xs-10">
-										<p class="__prorc">WE DEPLOY</p>
-										<p class="__prom">You test, give feedback and approve.</p>
-									</div>
+						<div class="col-md-6 col-sm-6 slideanim">
+							<div class="row __finmt">
+								<div class="col-md-2 col-xs-2">
+									<img src="assets/img/friend.svg" class="__finimg">
 								</div>
-							</div>
-							<div class="col-md-6 col-sm-6 slideanim">
-								<div class="row __finmt">
-									<div class="col-md-2 col-xs-2">
-										<img src="assets/img/industryw.svg" class="__finimg">
-									</div>
-									<div class="col-md-10 col-xs-10">
-										<p class="__proc">YOU SMILE</p>
-										<p class="__proc1">Project is completed. You are happy, you buy us a drink and the magic continues.</p>
-									</div>
+								<div class="col-md-10 col-xs-10">
+									<p class="__finfr1">WORK WITH THE BEST</p>
+									<p class="__finfr">We strive to be the best and take our time to sign up the best programming talents in Africa. This means that if you are an a-listers, you'll collaborate with your type everytime we execute together.</p>
 								</div>
 							</div>
 						</div>
+					</div>
 
+					<div class="row __finint slideanim">
+						<div class="col-md-1 col-xs-2 col-sm-1">
+							<img src="assets/img/industry.svg" class="__finimgind">
+						</div>
+						<div class="col-md-11 col-xs-10 col-sm-11">
+							<p class="__finind">MAKE MONEY</p>
+							<p class="__finind1">Of Course! We offer very competitive rates to our talents. Whether you work on a 2 weeks project, a 3-month contract or even get signed up for full-time work with our clients, you'll be doing great work for ambitious people and making money.</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="container slideanim">
-			<div class="row __fintp">
-				<div class="col-md-3"></div>
-				<div class="col-md-9">
-					<p class="__pron slideanim">Want to partner with us?</p>
-					<p class="__prouw slideanim">There are many ways we can work together</p>
+		<div class="__findowbgc slideanim">
+			<div class="container">
+				<div class="row __fintp">
+					<div class="col-md-3"></div>
+					<div class="col-md-9">
+						<p class="__finwe slideanim">Not a Pro yet?</p>
+						<p class="__finouw slideanim">You shouldn't worry. We understand that to become an expert, you need to keep practising, learning, sharing and collaborating. That is why we have the Saucecode community to help you grow.</p>
 
-					<p class="__prouw slideanim">There are other projects at Findworka. 
-						We have the 
-						<a href=""><span class="__prosp">Saucecode</span></a> community of talents, 
-						<a href=""><span class="__prosp">Findworka Fellowship</span></a>  for aspiring software engineers,
-						<a href=""><span class="__prosp">Findworka Mentors</span></a> for experienced software instructors and 
-						the annual
-						<a href=""><span class="__prosp">Saucecode Hackathons.</span></a>
-					</p>
-
+						<form class="slideanim" action="" method="POST" role="form">
+							<button type="submit" class="btn __expbtn1">Join Saucecode</button>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<footer class="__abfotbg">
+	<footer>
 		<div class="container">
 			<div class="row __dowt">
 				<div class="col-md-10 col-sm-11">
 					<div class="row slideanim">
 						<div class="col-md-3 col-sm-3">
-							<img src="assets/img/findworka-logo.png" class="__flogo">
+							<img src="assets/img/findworka-logo2x.png" class="__flogo">
 						</div>
 						<div class="col-md-3 col-sm-3">
-							<p><a href="">Extend Your Team</a></p>
+							<p><a href="talent.html">Extend Your Team</a></p>
 							<p><a href="">Findworka Pro</a></p>
 							<p><a href="">Saucecode community</a></p>
 						</div>
@@ -999,9 +1073,9 @@
 					<div class="row">
 						<div class="col-xs-4 col-sm-2"></div>
 						<div class="col-xs-4 col-sm-8">
-							<p class="__fotimg slideanim"><a href="https://twitter.com/findworka"><img src="assets/img/twitterblack.svg"></a></p>
-							<p class="__fotimg slideanim"><a href="https://www.facebook.com/findworka"><img src="assets/img/facebookblack.svg"></a></p>
-							<p class="__fotimg slideanim"><a href="https://www.linkedin.com/company/findworka/"><img src="assets/img/linkedinblack.svg"></a></p>
+							<p class="__dowimg slideanim"><a href="https://twitter.com/findworka"><img src="assets/img/twitter.svg"></a></p>
+							<p class="__dowimg slideanim"><a href="https://www.facebook.com/findworka"><img src="assets/img/facebook.svg"></a></p>
+							<p class="__dowimg slideanim"><a href="https://www.linkedin.com/company/findworka/"><img src="assets/img/linkedin.svg"></a></p>
 						</div>
 						<div class="col-xs-4 col-sm-2"></div>
 					</div>

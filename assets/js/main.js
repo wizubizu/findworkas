@@ -118,44 +118,103 @@ $(window).scroll(function() {
 
 
 //for the next and previous form 
+
+
+
+$("#continuebtn").click(function (){
+    var ownerType = $('.__selectind').val();
+    if (ownerType === 'developer') {
+        $('#Third-Div').hide();
+        $('#First-Div').hide();
+        $('#Second-Div').hide();
+        $('#Forth-Div').show();
+        $('#Five-Div').hide();
+    }else if(ownerType === 'designer'){
+        $('#Forth-Div').hide();
+        $('#Third-Div').hide();
+        $('#Second-Div').show();
+        $('#First-Div').hide();
+        $('#Five-Div').hide();
+    }else if(ownerType === "select"){
+        alert('Please select Designer or Developer');
+        $('#First-Div').show();
+        $('#Third-Div').hide();
+        $('#Second-Div').hide();
+    }
+});
+
+
+
+
 function showNextForm() {
-            $("#First-Div").css("display", "none");
-            $("#Second-Div").css("display", "block");
-        };
+        $("#First-Div").css("display", "none");
+        $("#Second-Div").css("display", "block");
+    };
 
-        function showNextForm1() {
-            $("#Second-Div").css("display", "none");
+    function showNextForm1() {
+        $("#Second-Div").css("display", "none");
+        $("#Third-Div").css("display", "block");
+    };
+
+    function showNextForm2() {
+        $("#Third-Div").css("display", "none");
+        $("#Five-Div").css("display", "block");
+    };
+
+    function showNextForm3() {
+        $("#Forth-Div").css("display", "none");
+        $("#Five-Div").css("display", "block");
+    };
+
+    // previous 
+    function showPrevForm() {
+        $("#Second-Div").css("display", "none");
+        $("#First-Div").css("display", "block");
+        $("#Forth-Div").css("display", "none");
+    };
+
+    function showPrevForm1() {
+        $('#Third-Div').css("display", "none");
+        $('#Second-Div').css("display", "block");
+        $('#First-Div').css("display", "none");
+        $("#Five-Div").css("display", "none");
+        $("#Forth-Div").css("display", "none");
+    };
+
+    function showPrevForm2() {
+        $("#Forth-Div").css("display", "block");
+        $("#Third-Div").css("display", "none");
+         $("#Five-Div").css("display", "none");
+    };
+
+
+    function showPrevForm3() {
+        var ownerType = $('.__selectind').val();
+        if (ownerType === 'developer') {
+            $('#First-Div').css("display", "none");
+            $('#Second-Div').css("display", "none");
+            $('#Forth-Div').css("display", "none");
+            $("#Five-Div").css("display", "none");
             $("#Third-Div").css("display", "block");
-        };
-
-        function showNextForm2() {
-            $("#Third-Div").css("display", "none");
-            $("#Five-Div").css("display", "block");
-        };
-
-        function showNextForm3() {
-            $("#Forth-Div").css("display", "none");
-            $("#Five-Div").css("display", "block");
-        };
-
-        // previous 
-        function showPrevForm() {
-            $("#Second-Div").css("display", "none");
-            $("#First-Div").css("display", "block");
-        };
-
-        function showPrevForm1() {
+        }else if(ownerType === 'designer'){
             $('#Third-Div').css("display", "none");
-            $('#Second-Div').css("display", "block");
+            $('#Second-Div').css("display", "none");
             $('#First-Div').css("display", "none");
             $("#Five-Div").css("display", "none");
-            $("#Forth-Div").css("display", "none");
-        };
+            $("#Forth-Div").css("display", "block");
+        }
+    };
 
-        function showPrevForm2() {
-            $("#Forth-Div").css("display", "none");
-            $("#Third-Div").css("display", "block");
-        };
+
+    //fileupload for individual
+        $('input[id=base-input4]').change(function() {
+        $('#fake-input4').val($(this).val().replace("C:\\fakepath\\", ""));
+        });
+
+        //fileupload for both
+        $('input[id=base-input5]').change(function() {
+        $('#fake-input5').val($(this).val().replace("C:\\fakepath\\", ""));
+        });
 // end
 
 

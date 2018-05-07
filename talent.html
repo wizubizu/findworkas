@@ -187,14 +187,14 @@
 							<span class="">MENU</span>
 						</button>
 						<a class="navbar-brand" href="index.html">
-							<img src="assets/img/findworka-logo2x.png" class="__flogo">
+							<img src="assets/img/findworka-logo.png" class="__flogo">
 						</a>
 					</div>
 			
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse navbar-ex1-collapse">
 						<ul class="nav navbar-nav __navab">
-							<li class="__nava"><a class="__nav-item" href="#">Extend Your Team</a></li>
+							<li class="__nava"><a class="__nav-item" href="talent.html">Extend Your Team</a></li>
 							<li class="__nava"><a class="__nav-item" href="#">Findworka Pro</a></li>
 						</ul>
 						<!-- <form class="navbar-form navbar-left" role="search">
@@ -218,9 +218,9 @@
 					<div class="col-md-2"></div>
 					<div class="col-md-10">
 						<div class="__mle  tech">
-							<p class="__fids">The first step to finding<br>the perfect freelancer.</p>
+							<p class="__fids">Need a-list talents<br>to extend your team?</p>
 
-							<p class="__fidy">Your next big adventure starts with a single step. Start by finding jobs perfectly matched to your unique talents.</p>
+							<p class="__fidy">Hire from our network of pre-vetted and handpicked programming talents.</p>
 						</div>
 					</div>
 				</div>
@@ -814,9 +814,9 @@
 	<!-- line and dot 2 end -->
 		<div class="container">
 			<div class="__posfixed hidden-xs hidden-sm tech">
-				<p><a href="">01. Build a product</a></p>
-				<p><a href="">02. Extend your team</a></p>
-				<p><a href="">03. Become a Pro</a></p>
+				<p><a href="project.html">01. Build a product</a></p>
+				<p><a href="talent.html">02. Extend your team</a></p>
+				<p><a href="pro.html">03. Become a Pro</a></p>
 			</div>
 			<div class="row">
 				<div class="col-md-2"></div>
@@ -825,8 +825,8 @@
 					<div class="row">
 						<div class="col-md-3"></div>
 						<div class="col-md-9">
-							<p class="__fidh slideanim">Hire  the top 3% talent<br>for your projects! </p>
-							<p class="__fidou slideanim">Our  membership board of award-winning creatives and developers assures that clients always get the best projects, delivered on time!New Findworka pro members are the most respected and hardest working creators in the industry! - Change text!</p>
+							<p class="__fidh slideanim">Extend your team<br>with Findworka Pros </p>
+							<p class="__fidou slideanim">Findworka Pro is an elite network of a-list programming talents with competence and real-world experience. Our network includes UI/UX designers, front-end developers, back-end developers,</p>
 
 							
 							
@@ -834,32 +834,76 @@
 
 								<div class="" id="First-Div">
 									<div class="form-group">
-										<label for="" class="__fidfor">First name</label>
-										<input type="text" class="form-control  __fomin" name="" id="" placeholder="">
+										<label for="" class="__fidfor">Name</label>
+										<input type="text" class="form-control __fomin" placeholder="first name, last name"  name="">
 									</div>
-									<div class="form-group">
-										<label for="" class="__fidfor">Last Name</label>
-										<input type="text" class="form-control  __fomin" name="" id="" placeholder="">
-									</div>
-
-									<button type="button" class="__fombtn" onclick="showNextForm()">Next</button>
-								</div>
-								<div class="" id="Second-Div" style="display: none;">
 									
 									<div class="form-group">
-										<label for="" class="__fidfor">Email Address</label>
-										<input type="email" class="form-control  __fomin" name="" id="" placeholder="">
+										<label for="" class="__fidfor">What talent do you need?</label>
+										<select name="" id="input" class="form-control __fomin" required="required">
+											<option value="Select">Select</option>
+											<option value="">UI/UX designer</option>
+											<option value="">Front-end developer</option>
+											<option value="">Back-end developer</option>
+											<option value="">DevOps</option>
+											<option value="">Android developer</option>
+										</select>
+									</div>
+
+									<button type="button" class="__fombtn" onclick="showNextForm()">Continue</button>
+								</div>
+								<div class="" id="Second-Div" style="display: none;">
+
+									<div class="form-group">
+										<label for="" class="__fidfor">Full-time or Part time?</label>
+										<select name="" id="input" class="form-control __fomin" required="required">
+											<option value="Select">Select</option>
+											<option value="">Full-time (40 hours per week)</option>
+											<option value="">Part-time (20 hours per week)</option>
+										</select>
 									</div>
 
 									<div class="form-group">
-										<label for="" class="__fidfor">Phone Number</label>
-										<input type="text" class="form-control  __fomin" name="quantity" id="quantity" placeholder="+234"/><span id="errmsg"></span>
+										<label for="" class="__fidfor">Project duration</label>
+										<div class="row">
+											<div class="col-md-3">
+												<select name="" id="input" class="form-control __fomtalsel" required="required">
+													<option value="Select">Select</option>
+													<option value="">1</option>
+													<option value="">2</option>
+													<option value="">3</option>
+													<option value="">4</option>
+													<option value="">5</option>
+													<option value="">6</option>
+													<option value="">7</option>
+													<option value="">8</option>
+													<option value="">9</option>
+													<option value="">10</option>
+													<option value="">11</option>
+													<option value="">12</option>
+												</select>
+											</div>
+											<div class="col-md-9">
+												<select name="" id="input" class="form-control __fomtalsel" required="required">
+													<option value="Select">Select</option>
+													<option value="">Months</option>
+													<option value="">weeks</option>
+												</select>
+											</div>
+										</div>
 									</div>
 
-									<div class="form-group ">
-										<label for="" class="__fidfor">Skype ID</label>
-								    	<input type="text" class="form-control __fomin" placeholder="Skype ID..."  name="">
-								    </div>
+
+									<div class="form-group">
+										<label for="" class="__fidfor">On-site or remote?</label>
+										<select name="" id="input" class="form-control __fomin" required="required">
+											<option value="Select">Select</option>
+											<option value="">On-site (talent works from your office)</option>
+											<option value="">Remote (talent works from our office)</option>
+										</select>
+									</div>
+
+									
 
 								    <button type="button" class="__fombtn" onclick="showPrevForm()">Previous</button>
 								    <button type="submit" class="__fombtn" onclick="showNextForm()">Submit</button>
@@ -879,8 +923,8 @@
 				<div class="col-md-6"></div>
 				<div class="col-md-6">
 					<div class="__aboml">
-						<p class="__finwy">Why Findworka?</p>
-						<p class="__finou">Our  membership board of award-winning creatives and developers assures that clients always get the best projects, delivered on time!New Findworka pro members are the most respected and hardest working creators in the industry! - Change text!</p>
+						<p class="__finwy">Why Our Pro?</p>
+						<p class="__finou">We understand how critical talent is to the success of any organisation. Therefore, we ensure that we supply only the right hands for the right project.</p>
 					</div>
 				</div>
 			</div>
@@ -895,8 +939,8 @@
 									<img src="assets/img/unsur.svg" class="__finimg">
 								</div>
 								<div class="col-md-10 col-xs-10">
-									<p class="__finun">UNSURPASSED TALENT</p>
-									<p class="__finom">Our  membership board of award-winning creatives and developers assures that clients always get the best projects, delivered on time!New Findworka pro members are the most respected and hardest working creators in the industry! - Change text!</p>
+									<p class="__finun">A-LIST ONLY</p>
+									<p class="__finom">Findworka supplies a-list developers who love to be part of mission-critical projects, regardless of the company’s location, size and preferred tech stack.</p>
 								</div>
 							</div>
 						</div>
@@ -906,8 +950,8 @@
 									<img src="assets/img/friend.svg" class="__finimg">
 								</div>
 								<div class="col-md-10 col-xs-10">
-									<p class="__finfr1">FRIENDLY RATES</p>
-									<p class="__finfr">Our  membership board of award-winning creatives and developers assures that clients always get the best projects, delivered on time!New Findworka pro members are the most respected and hardest working creators in the industry! - Change text!</p>
+									<p class="__finfr1">EASY COMMUNICATION</p>
+									<p class="__finfr">We make sure all of our elite freelancers speak, read, and write English clearly and fluently.</p>
 								</div>
 							</div>
 						</div>
@@ -918,8 +962,8 @@
 							<img src="assets/img/industry.svg" class="__finimgind">
 						</div>
 						<div class="col-md-11 col-xs-10 col-sm-11">
-							<p class="__finind">INDUSTRY FOCUS</p>
-							<p class="__finind1">Our  membership board of award-winning creatives and developers assures that clients always get the best projects, delivered on time!New Findworka pro members are the most respected and hardest working creators in the industry! - Change text!</p>
+							<p class="__finind">NO MAYBES</p>
+							<p class="__finind1">We understand the need for completion and excellence by enterprise clients. We understand this. We have the experience and commitment required to deploy and manage your talents. </p>
 						</div>
 					</div>
 				</div>
@@ -931,8 +975,8 @@
 				<div class="row __fintp">
 					<div class="col-md-3"></div>
 					<div class="col-md-9">
-						<p class="__finwe slideanim">Who do you need to hire?</p>
-						<p class="__finouw slideanim">Our  membership board of award-winning creatives and developers assures that clients always get the best projects, delivered on time!New Findworka pro members are the most respected and hardest working creators in the industry! - Change text!</p>
+						<p class="__finwe slideanim">EXCELLENCE ALWAYS</p>
+						<p class="__finouw slideanim">We have an excellent record with our existing clients and we are honoured to play a part in your success.</p>
 
 						<form class="slideanim" action="" method="POST" role="form">
 							<button type="submit" class="btn __expbtn1">Extend Your Team</button>
@@ -952,14 +996,14 @@
 							<img src="assets/img/findworka-logo2x.png" class="__flogo">
 						</div>
 						<div class="col-md-3 col-sm-3">
-							<p><a href="">Extend Your Team</a></p>
+							<p><a href="talent.html">Extend Your Team</a></p>
 							<p><a href="">Findworka Pro</a></p>
 							<p><a href="">Saucecode community</a></p>
 						</div>
 						<div class="col-md-3 col-sm-2">
 							<p><a href="index.html">Home</a></p>
 							<p><a href="about.html">About</a></p>
-							<p><a href="">Contact</a></p>
+							<p><a href="contact.html">Contact</a></p>
 						</div>
 						<div class="col-md-3 col-sm-4">
 							<p><a href="">Terms and conditions</a></p>
