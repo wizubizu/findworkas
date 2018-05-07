@@ -622,10 +622,18 @@ svg path {
   margin-top: -10px;
 }
 
-.__headerbgc {
-  /*height: 798px !important;*/
+/*.__headerbgc {
   height: 885.5px !important;
   background-color: #0000d6;
+}*/
+
+.__headerbgc {
+   background:linear-gradient(100deg, rgba(20, 20, 21, 0.5) 50%, rgba(20, 20, 21, 0.5) 50%), url(../img/f3.jpg);
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 885.5px;
 }
 
 .__abubgc {
@@ -772,7 +780,7 @@ svg path {
 }
 
 .__findd{
-	width: 393px;
+	width: 507px;
   height: 50px;
   font-size: 18px;
   line-height: 1.39;
@@ -1221,13 +1229,13 @@ margin-left: 57px;
 }
 .__pulse2{
 	position: absolute;
-    bottom: 31%;
-    margin-left: 43.4%;
+    bottom: 30%;
+    margin-left: 38.4%;
 }
 .__pulse3{
 	position: absolute;
-    bottom: 33.5%;
-    margin-left: 52%;
+    bottom: 24.6%;
+    margin-left: 39%;
 }
 
 .__pulse4{
@@ -1238,8 +1246,8 @@ margin-left: 57px;
 
 .__pulse5{
 	position: absolute;
-    bottom: 29%;
-    margin-left: 41%;
+    bottom: 30.8%;
+    margin-left: 45.4%;
 }
 
 .__pulse6{
@@ -1250,8 +1258,8 @@ margin-left: 57px;
 
 .__pulse7{
 	position: absolute;
-    bottom: 26.3%;
-    margin-left: 53%;
+    bottom: 29.7%;
+    margin-left: 44%;
 }
 
 .__findmap{
