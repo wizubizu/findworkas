@@ -3,6 +3,18 @@
 ==================================================================*/
 
 
+@media screen and (min-width: 1440px){
+    .gallery_box {
+    padding: 40px;
+    }
+}
+
+
+/*=================================================================
+  @media screen 1024px
+==================================================================*/
+
+
 @media screen and (max-width: 1024px){
 
 
@@ -232,6 +244,17 @@
     height: 100%;
     font-size: 50px;
     margin-left: 5px;
+    }
+
+    .__fidff {
+    font-size: 50px;
+    margin-left: 7.6%;
+    }
+    .__fidffc {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    margin-left: 5px;
 	}
 
 	.__prol {
@@ -245,6 +268,11 @@
     width: 100%;
     height: 100%;
     margin-left: 5px;
+    font-size: 18px;
+    }
+
+    .__fidff1 {
+    margin-left: 57px;
     font-size: 18px;
 	}
 
@@ -993,6 +1021,27 @@
     color: #0a0909;
     margin-left: 15px;
     margin-top: 30px;
+    }
+
+    .__fidff {
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1;
+    color: #0a0909;
+    margin-left: 15px;
+    margin-top: 30px;
+    }
+    .__fidffc {
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1;
+    color: #0a0909;
+    margin-left: 15px;
+    margin-top: 30px;
 	}
 
 	.__prol {
@@ -1007,6 +1056,16 @@
 	}
 
     .__fidou {
+    width: 100%;
+    height: 100%;
+    font-family: Sofia Pro Regular;
+    font-size: 16px;
+    line-height: 1.65;
+    color: #585353;
+    margin-left: 15px;
+    }
+
+    .__fidff1 {
     width: 100%;
     height: 100%;
     font-family: Sofia Pro Regular;
@@ -1175,6 +1234,17 @@
     color: #ffffff;
     margin-top: 17px;
     font-family: Poppins-SemiBold;
+    }
+
+    .__fidffl {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1;
+    color: #ffffff;
+    margin-top: 17px;
+    font-family: Poppins-SemiBold;
 	}
 
 	.__cont {
@@ -1188,6 +1258,10 @@
 	}
 
 	.__fidy {
+    width: 100%;
+    height: 100%;
+    }
+    .__fidffl1{
     width: 100%;
     height: 100%;
 	}
@@ -1957,6 +2031,16 @@
     line-height: 1.35;
     color: #ffffff;
     margin-top: 5%;
+    }
+
+    .__fidffl1 {
+    width: 100%;
+    height: 100%;
+    font-family: Sofia Pro Regular;
+    font-size: 14px;
+    line-height: 1.35;
+    color: #ffffff;
+    margin-top: 5%;
 	}
 
 	.__contw {
@@ -1974,6 +2058,28 @@
 	}
 
 	.__fidh {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #0a0909;
+    margin-left: 15px;
+    margin-top: 6px;
+    }
+
+    .__fidff {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #0a0909;
+    margin-left: 15px;
+    margin-top: 6px;
+    }
+
+    .__fidffc {
     width: 100%;
     height: 100%;
     font-size: 20px;
@@ -2028,6 +2134,16 @@
 	}
 
 	.__fidou {
+    width: 100%;
+    height: 100%;
+    font-family: Sofia Pro Regular;
+    font-size: 14px;
+    line-height: 1.65;
+    color: #585353;
+    margin-left: 0px;
+    }
+
+    .__fidff1 {
     width: 100%;
     height: 100%;
     font-family: Sofia Pro Regular;
@@ -2195,6 +2311,17 @@
 	}
 
 	.__fids {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    color: #ffffff;
+    margin-top: 0px;
+    font-family: Poppins-SemiBold;
+    }
+
+    .__fidffl {
     width: 100%;
     height: 100%;
     font-size: 20px;

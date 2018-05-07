@@ -2741,3 +2741,61 @@ animation-fill-mode: forwards;
   top: -2px;
   color: #9b9b9b;
 }
+
+
+.__fidffl {
+    width: 696px;
+    /* height: 175px; */
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #ffffff;
+    margin-top: 70px;
+    font-family: Poppins-SemiBold;
+}
+
+
+.__fidffl1 {
+    width: 613px;
+    height: 65px;
+    font-family: Sofia Pro Regular;
+    font-size: 20px;
+    line-height: 1.35;
+    color: #ffffff;
+    /* margin-top: 5%; */
+}
+
+
+.__fidff {
+    /* width: 661px; */
+    height: 90px;
+    font-size: 59px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #0a0909;
+    margin-left: 11.1%;
+    margin-top: 87px;
+    font-family: Poppins-SemiBold;
+}
+
+.__fidff1 {
+    /* width: 641px; */
+    /*height: 176px;*/
+    font-family: Sofia Pro Regular;
+    font-size: 20px;
+    line-height: 1.65;
+    color: #585353;
+    margin-left: 11.1%;
+}
+
+.__fidffc {
+    width: 661px;
+    /* height: 175px; */
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #0a0909;
+    margin-left: 15px;
+    margin-top: 87px;
+    font-family: Poppins-SemiBold;
+}
