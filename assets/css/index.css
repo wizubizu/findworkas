@@ -243,7 +243,7 @@
     width: 100%;
     height: 100%;
     font-size: 50px;
-    margin-left: 5px;
+    margin-left: 56px;
     }
 
     .__fidff {
@@ -254,20 +254,24 @@
     width: 100%;
     height: 100%;
     font-size: 50px;
-    margin-left: 5px;
+    margin-left: 57px;
 	}
 
 	.__prol {
     width: 100%;
     height: 100%;
     font-size: 50px;
-    margin-left: 5px;
+    margin-left: 56px;
 	}
+
+    .__fidy {
+    height: 90px;
+    }
 
 	.__fidou {
     width: 100%;
     height: 100%;
-    margin-left: 5px;
+    margin-left: 57px;
     font-size: 18px;
     }
 
@@ -342,7 +346,7 @@
 	}
 
 	#regForm {
-    padding-left: 7px;
+    margin-left: 57px;
 	}
 
     #regForm1 {
@@ -489,7 +493,7 @@
 	}
 
 	.__prosp {
-    font-size: 30px;
+    font-size: 20px;
 	}
 
 	.__ourplatf {
@@ -1283,6 +1287,7 @@
     height: 100%;
     font-size: 20px;
     line-height: 1.9;
+    margin-left: -8px;
 	}
 
 	.__finou {
@@ -1561,6 +1566,10 @@
 
     .form-style-fake5 {
     margin-left: -91px;
+    }
+
+    #regForm {
+    margin-left: 15px;
     }
 
 	
@@ -2064,7 +2073,7 @@
     font-weight: 600;
     line-height: 1.5;
     color: #0a0909;
-    margin-left: 15px;
+    margin-left: 0px;
     margin-top: 6px;
     }
 
@@ -2075,8 +2084,8 @@
     font-weight: 600;
     line-height: 1.5;
     color: #0a0909;
-    margin-left: 15px;
-    margin-top: 6px;
+    margin-left: 0px;
+    margin-top: 0px;
     }
 
     .__fidffc {
@@ -2086,7 +2095,7 @@
     font-weight: 600;
     line-height: 1.5;
     color: #0a0909;
-    margin-left: 15px;
+    margin-left: 0px;
     margin-top: 6px;
 	}
 
@@ -2102,11 +2111,11 @@
 	}
 
 	#regForm {
-    padding-left: 0px;
+    margin-left: 0px;
     }
 
     #regForm1 {
-    padding-left: 0px;
+    margin-left: 0px;
     margin-top: 5%;
     }
 
@@ -2115,6 +2124,10 @@
     width: 100%;
     height: 100%;
     font-size: 12px;
+    }
+
+    .__foming {
+    width: 100%;
     }
 
     .__fomsi {
@@ -2277,7 +2290,7 @@
 	}
 
 	.__prosp {
-    font-size: 20px;
+    font-size: 17px;
 	}
 
 	.__finouw {
@@ -2608,6 +2621,12 @@
 
     .__cnavsignbg{
     margin-left: 11px;
+    }
+
+    .__fomtalsel {
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
     }
 
 

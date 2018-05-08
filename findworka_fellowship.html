@@ -825,67 +825,62 @@
 					<p class="__fidff slideanim">About Findworka Fellowship</p>
 					<p class="__fidff1 slideanim">Findworka Fellowship is an intensive bootcamp for aspiring developers.<br>The demand for competent developers is increasing everyday. This surge in popularity is driven by the demands of today's internet users for dynamic and applications, built with today’s users in mind. <br>We know the role that quality tutoring and mentoring can play in the development of an ambitious developer. The best developers are not only able to code using the latest frameworks and programming languages, but also having an updated understanding of how code should be written, how to collaborate and the real-world implication of every syntax. <br>The Fullstack curriculum is designed to help you have a strong technical background and develop the ability to learn quickly and apply what you know on either your startup, your freelance projects or for your new employers.</p>
 
-					<div class="row">
-						<div class="col-md-3"></div>
-						<div class="col-md-9">
-							<p class="__fidffc slideanim">Our Courses</p>
-							<p class="__fidou slideanim">We are starting with two courses:<br>Front-end development.<br>Back-end development.</p>
+					<p class="__fidffc slideanim">Our Courses</p>
+					<p class="__fidou slideanim">We are starting with two courses:<br>Front-end development.<br>Back-end development.</p>
 
+					
+					
+					<form id="regForm" class="slideanim" action="" method="POST" role="form">
+
+						<div class="" id="First-Div">
+							<div class="form-group">
+								<label for="" class="__fidfor">Name</label>
+								<input type="text" class="form-control __fomin" placeholder="first name, last name"  name="">
+							</div>
+
+							<div class="form-group">
+								<label for="" class="__fidfor">Email Address</label>
+								<input type="email" class="form-control  __fomin" name="" id="" placeholder="">
+							</div>
 							
-							
-							<form id="regForm" class="slideanim" action="" method="POST" role="form">
+							<div class="form-group">
+								<label for="" class="__fidfor">I want to learn</label>
+								<select name="" id="input" class="form-control __fomin" required="required">
+									<option value="Select">Select</option>
+									<option value="">Front-end developer</option>
+									<option value="">Back-end developer</option>
+								</select>
+							</div>
 
-								<div class="" id="First-Div">
-									<div class="form-group">
-										<label for="" class="__fidfor">Name</label>
-										<input type="text" class="form-control __fomin" placeholder="first name, last name"  name="">
-									</div>
-
-									<div class="form-group">
-										<label for="" class="__fidfor">Email Address</label>
-										<input type="email" class="form-control  __fomin" name="" id="" placeholder="">
-									</div>
-									
-									<div class="form-group">
-										<label for="" class="__fidfor">I want to learn</label>
-										<select name="" id="input" class="form-control __fomin" required="required">
-											<option value="Select">Select</option>
-											<option value="">Front-end developer</option>
-											<option value="">Back-end developer</option>
-										</select>
-									</div>
-
-									<button type="button" class="__fombtn" onclick="showNextForm()">Continue</button>
-								</div>
-								<div class="" id="Second-Div" style="display: none;">
-
-									<div class="form-group">
-										<label for="" class="__fidfor">I live in</label>
-										<select name="" id="input" class="form-control __fomin" required="required">
-											<option value="Select">Select</option>
-											<option value="">Lagos</option>
-											<option value="">Outside Lagos</option>
-											<option value="">Outside Nigeria</option>
-										</select>
-									</div>
-
-									<div class="form-group">
-										<label for="" class="__fidfor">In terms of experience</label>
-										<select name="" id="input" class="form-control __fomin" required="required">
-											<option value="Select">Select</option>
-											<option value="">I know the basics</option>
-											<option value="">I’m intermediate</option>
-											<option value="">Years of experience.</option>
-										</select>
-									</div>
-
-
-									<button type="button" class="__fombtn" onclick="showPrevForm()">Previous</button>
-								    <button type="submit" class="__fombtn" onclick="showNextForm()">Submit</button>
-								</div>
-							</form>
+							<button type="button" class="__fombtn" onclick="showNextForm()">Continue</button>
 						</div>
-					</div>
+						<div class="" id="Second-Div" style="display: none;">
+
+							<div class="form-group">
+								<label for="" class="__fidfor">I live in</label>
+								<select name="" id="input" class="form-control __fomin" required="required">
+									<option value="Select">Select</option>
+									<option value="">Lagos</option>
+									<option value="">Outside Lagos</option>
+									<option value="">Outside Nigeria</option>
+								</select>
+							</div>
+
+							<div class="form-group">
+								<label for="" class="__fidfor">In terms of experience</label>
+								<select name="" id="input" class="form-control __fomin" required="required">
+									<option value="Select">Select</option>
+									<option value="">I know the basics</option>
+									<option value="">I’m intermediate</option>
+									<option value="">Years of experience.</option>
+								</select>
+							</div>
+
+
+							<button type="button" class="__fombtn" onclick="showPrevForm()">Previous</button>
+						    <button type="submit" class="__fombtn" onclick="showNextForm()">Submit</button>
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>

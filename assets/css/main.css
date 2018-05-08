@@ -758,7 +758,7 @@ svg path {
 }
 
 .__greattech{
-	margin-top: 140px;
+	margin-top: 67px;
   width: 725px;
   height: 287px;
   font-size: 75px;
@@ -1709,7 +1709,7 @@ margin-left: 57px;
 
 .__aboml{
 	margin-left: 47px;
-	margin-top: 5%;
+	margin-top: 10%;
 }
 
 .__abuotm{
@@ -1820,7 +1820,7 @@ margin-left: 57px;
     font-weight: 600;
     line-height: 1.5;
     color: #0a0909;
-    margin-left: 15px;
+    margin-left: 11.1%;
     margin-top: 87px;
     font-family: Poppins-SemiBold;
 }
@@ -1833,6 +1833,7 @@ margin-left: 57px;
     line-height: 1.65;
     color: #585353;
     margin-left: 15px;
+    margin-left: 11.1%;
 }
 
 .__fidfor{
@@ -1847,7 +1848,7 @@ margin-left: 57px;
 
 /*next form*/
 #regForm {
-  padding-left: 16px;
+  margin-left: 11.5%;
 }
 
 #regForm1 {
@@ -1863,6 +1864,10 @@ margin-left: 57px;
   font-size: 17px;
   font-family: Poppins-Regular;
   /*border: 1px solid #aaaaaa;*/
+}
+
+.__foming {
+    width: 354px;
 }
 
 .__fomsi {
@@ -2163,7 +2168,7 @@ margin-left: 57px;
     font-weight: 600;
     line-height: 1.5;
     color: #0a0909;
-    margin-left: 15px;
+    margin-left: 11.1%;
     margin-top: 87px;
     font-family: Poppins-SemiBold;
 }
@@ -2641,7 +2646,7 @@ animation-fill-mode: forwards;
 
 
 .__fomtalsel {
-    width: 175px;
+    width: 162px;
     height: 50px;
     background-color: #ffffff;
     border: solid 1px #0000ef;
@@ -2649,6 +2654,8 @@ animation-fill-mode: forwards;
     font-family: Poppins-Regular;
     /* border: 1px solid #aaaaaa; */
 }
+
+
 
 
 /*for upload images*/
@@ -2806,4 +2813,5 @@ animation-fill-mode: forwards;
     margin-left: 15px;
     margin-top: 87px;
     font-family: Poppins-SemiBold;
+    margin-left: 11.1%;
 }

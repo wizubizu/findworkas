@@ -822,95 +822,90 @@
 				<div class="col-md-2"></div>
 				<div class="col-md-10">
 
-					<div class="row">
-						<div class="col-md-3"></div>
-						<div class="col-md-9">
-							<p class="__fidh slideanim">Extend your team<br>with Findworka Pros </p>
-							<p class="__fidou slideanim">Findworka Pro is an elite network of a-list programming talents with competence and real-world experience. Our network includes UI/UX designers, front-end developers, back-end developers,</p>
+					<p class="__fidh slideanim">Extend your team<br>with Findworka Pros </p>
+					<p class="__fidou slideanim">Findworka Pro is an elite network of a-list programming talents with competence and real-world experience. Our network includes UI/UX designers, front-end developers, back-end developers,</p>
 
+					
+					
+					<form id="regForm" class="slideanim" action="" method="POST" role="form">
+
+						<div class="" id="First-Div">
+							<div class="form-group">
+								<label for="" class="__fidfor">Name</label>
+								<input type="text" class="form-control __fomin" placeholder="first name, last name"  name="">
+							</div>
 							
-							
-							<form id="regForm" class="slideanim" action="" method="POST" role="form">
+							<div class="form-group">
+								<label for="" class="__fidfor">What talent do you need?</label>
+								<select name="" id="input" class="form-control __fomin" required="required">
+									<option value="Select">Select</option>
+									<option value="">UI/UX designer</option>
+									<option value="">Front-end developer</option>
+									<option value="">Back-end developer</option>
+									<option value="">DevOps</option>
+									<option value="">Android developer</option>
+								</select>
+							</div>
 
-								<div class="" id="First-Div">
-									<div class="form-group">
-										<label for="" class="__fidfor">Name</label>
-										<input type="text" class="form-control __fomin" placeholder="first name, last name"  name="">
-									</div>
-									
-									<div class="form-group">
-										<label for="" class="__fidfor">What talent do you need?</label>
-										<select name="" id="input" class="form-control __fomin" required="required">
-											<option value="Select">Select</option>
-											<option value="">UI/UX designer</option>
-											<option value="">Front-end developer</option>
-											<option value="">Back-end developer</option>
-											<option value="">DevOps</option>
-											<option value="">Android developer</option>
-										</select>
-									</div>
-
-									<button type="button" class="__fombtn" onclick="showNextForm()">Continue</button>
-								</div>
-								<div class="" id="Second-Div" style="display: none;">
-
-									<div class="form-group">
-										<label for="" class="__fidfor">Full-time or Part time?</label>
-										<select name="" id="input" class="form-control __fomin" required="required">
-											<option value="Select">Select</option>
-											<option value="">Full-time (40 hours per week)</option>
-											<option value="">Part-time (20 hours per week)</option>
-										</select>
-									</div>
-
-									<div class="form-group">
-										<label for="" class="__fidfor">Project duration</label>
-										<div class="row">
-											<div class="col-md-3">
-												<select name="" id="input" class="form-control __fomtalsel" required="required">
-													<option value="Select">Select</option>
-													<option value="">1</option>
-													<option value="">2</option>
-													<option value="">3</option>
-													<option value="">4</option>
-													<option value="">5</option>
-													<option value="">6</option>
-													<option value="">7</option>
-													<option value="">8</option>
-													<option value="">9</option>
-													<option value="">10</option>
-													<option value="">11</option>
-													<option value="">12</option>
-												</select>
-											</div>
-											<div class="col-md-9">
-												<select name="" id="input" class="form-control __fomtalsel" required="required">
-													<option value="Select">Select</option>
-													<option value="">Months</option>
-													<option value="">weeks</option>
-												</select>
-											</div>
-										</div>
-									</div>
-
-
-									<div class="form-group">
-										<label for="" class="__fidfor">On-site or remote?</label>
-										<select name="" id="input" class="form-control __fomin" required="required">
-											<option value="Select">Select</option>
-											<option value="">On-site (talent works from your office)</option>
-											<option value="">Remote (talent works from our office)</option>
-										</select>
-									</div>
-
-									
-
-								    <button type="button" class="__fombtn" onclick="showPrevForm()">Previous</button>
-								    <button type="submit" class="__fombtn" onclick="showNextForm()">Submit</button>
-								</div>
-							</form>
+							<button type="button" class="__fombtn" onclick="showNextForm()">Continue</button>
 						</div>
-					</div>
+						<div class="" id="Second-Div" style="display: none;">
+
+							<div class="form-group">
+								<label for="" class="__fidfor">Full-time or Part time?</label>
+								<select name="" id="input" class="form-control __fomin" required="required">
+									<option value="Select">Select</option>
+									<option value="">Full-time (40 hours per week)</option>
+									<option value="">Part-time (20 hours per week)</option>
+								</select>
+							</div>
+
+							<div class="form-group __foming">
+								<label for="" class="__fidfor">Project duration</label>
+								<div class="row">
+									<div class="col-md-6 col-xs-6">
+										<select name="" id="input" class="form-control __fomtalsel" required="required">
+											<option value="Select">Select</option>
+											<option value="">1</option>
+											<option value="">2</option>
+											<option value="">3</option>
+											<option value="">4</option>
+											<option value="">5</option>
+											<option value="">6</option>
+											<option value="">7</option>
+											<option value="">8</option>
+											<option value="">9</option>
+											<option value="">10</option>
+											<option value="">11</option>
+											<option value="">12</option>
+										</select>
+									</div>
+									<div class="col-md-6 col-xs-6">
+										<select name="" id="input" class="form-control __fomtalsel" required="required">
+											<option value="Select">Select</option>
+											<option value="">Months</option>
+											<option value="">weeks</option>
+										</select>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="form-group">
+								<label for="" class="__fidfor">On-site or remote?</label>
+								<select name="" id="input" class="form-control __fomin" required="required">
+									<option value="Select">Select</option>
+									<option value="">On-site (talent works from your office)</option>
+									<option value="">Remote (talent works from our office)</option>
+								</select>
+							</div>
+
+							
+
+						    <button type="button" class="__fombtn" onclick="showPrevForm()">Previous</button>
+						    <button type="submit" class="__fombtn" onclick="showNextForm()">Submit</button>
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>
