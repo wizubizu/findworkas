@@ -1482,7 +1482,7 @@ margin-left: 57px;
   font-weight: 600;
   line-height: 1.5;
   color: #ffffff;
-  margin-top: 70px;
+  margin-top: 52px;
   font-family: Poppins-SemiBold;
 }
 
@@ -1810,11 +1810,11 @@ margin-left: 57px;
     font-size: 20px;
     line-height: 1.35;
     color: #ffffff;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .__fidh {
-    width: 661px;
+    width: 693px;
     height: 175px;
     font-size: 60px;
     font-weight: 600;
@@ -1852,7 +1852,7 @@ margin-left: 57px;
 }
 
 #regForm1 {
-    padding-left: 16px;
+    margin-left: 16px;
     margin-top: 20%;
 }
 
@@ -1918,7 +1918,7 @@ margin-left: 57px;
 
 .__finou {
     width: 481px;
-    height: 165px;
+    height: 130px;
     font-size: 20px;
     font-family:Sofia Pro Regular; 
     line-height: 1.65;
@@ -1942,6 +1942,7 @@ margin-left: 57px;
     line-height: 1.65;
     color: #585353;
     margin-left: -70px;
+    font-family: Sofia Pro Regular;
 }
 
 .__finimg{
@@ -1957,8 +1958,13 @@ margin-left: 57px;
 }
 
 .__finmt {
-    margin-top: 44%;
-    margin-left: 64px;
+    /*margin-top: 0%;*/
+    margin-left: -43px;
+}
+
+.__finwt {
+    /* margin-top: 0%; */
+    margin-left: 59px;
 }
 
 .__finfr1 {
@@ -1978,6 +1984,7 @@ margin-left: 57px;
     line-height: 1.65;
     color: #585353;
     margin-left: -59px;
+    font-family: Sofia Pro Regular;
 }
 
 .__finind {
@@ -1998,6 +2005,7 @@ margin-left: 57px;
     line-height: 1.65;
     color: #585353;
     margin-left: -74px;
+    font-family: Sofia Pro Regular;
 }
 
 .__finint{
@@ -2032,7 +2040,7 @@ margin-left: 57px;
 }
 
 .__fintp{
-	    margin-top: 10%;
+	margin-top: 5%;
     margin-left: 0px;
 }
 
@@ -2060,7 +2068,7 @@ margin-left: 57px;
 
 .__prou {
     width: 481px;
-    height: 165px;
+    height: 80px;
     font-size: 20px;
     font-family: Sofia Pro Regular;
     line-height: 1.65;
@@ -2075,7 +2083,7 @@ margin-left: 57px;
     font-family: Poppins-SemiBold;
     line-height: 1.50;
     color: #ffffff;
-    margin-left: -10px;
+    margin-left: -2px;
 }
 
 .__prom {
@@ -2084,7 +2092,7 @@ margin-left: 57px;
     font-size: 20px;
     line-height: 1.65;
     color: #ffffff;
-    margin-left: -70px;
+    margin-left: -56px;
 }
 
 .__proc {
@@ -2095,6 +2103,7 @@ margin-left: 57px;
     font-family: Poppins-SemiBold;
     line-height: 1.50;
     color: #ffffff;
+    margin-left: -28px;
 }
 
 .__proc1 {
@@ -2103,11 +2112,11 @@ margin-left: 57px;
     font-size: 20px;
     line-height: 1.65;
     color: #ffffff;
-    margin-left: -59px;
+    margin-left: -88px;
 }
 
 .__prodowbgc {
-    height: 1065px;
+    height: 836px;
     background-color: #0000ef;
     margin-top: 10%;
 }
@@ -2124,7 +2133,7 @@ margin-left: 57px;
 
 .__prouw {
     width: 844px;
-    height: 103px;
+    height: 43px;
     font-family: Sofia Pro Regular;
     font-size: 20px;
     line-height: 1.65;
@@ -2772,7 +2781,7 @@ animation-fill-mode: forwards;
 
 .__fidffl1 {
     width: 613px;
-    height: 65px;
+    /*height: 65px;*/
     font-family: Sofia Pro Regular;
     font-size: 20px;
     line-height: 1.35;
@@ -2815,3 +2824,68 @@ animation-fill-mode: forwards;
     font-family: Poppins-SemiBold;
     margin-left: 11.1%;
 }
+
+.__expbtn1t {
+    width: 263px;
+    padding-top: 14px;
+    height: 56px;
+    background-color: #ffffff;
+    border: solid 2px #091cf7;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.56;
+    color: #585353;
+    font-family: Poppins-Medium;
+    transition: all 0.4s ease-in;
+}
+
+.__expbtn1t:hover{
+	background-color: transparent;
+    border: solid 1px #ffffff;
+    color: #ffffff;
+}
+
+
+/*faq*/
+.accordion{
+	width:100%; 
+	margin: 0 auto;
+}
+.accordion-toggle {
+	border-bottom: 1px solid #cccccc;
+	cursor: pointer;
+	margin: 0;
+	padding: 10px 0;
+	position: relative;
+}
+.accordion-toggle.active:after{
+	content:"";
+	position:absolute;
+	right:0;top:17px;
+	width:0;height:0;
+	border-bottom:5px solid #f00;
+	border-left:5px solid #fff;
+	border-right:5px solid #fff;
+}
+.accordion-toggle:before{
+	content:"";
+	position:absolute;
+	right:0;
+	top:17px;
+	width:0;
+	height:0;
+	border-top:5px solid #000;
+	border-left:5px solid #fff;
+	border-right:5px solid #fff;
+}
+.accordion-toggle.active:before{
+	display:none;
+}
+.accordion-content {
+	display: none;
+}
+.accordion-toggle.active {
+	color: #ff0000;
+}
+/*faq end*/
+

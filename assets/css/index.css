@@ -350,7 +350,7 @@
 	}
 
     #regForm1 {
-    padding-left: 7px;
+    margin-left: 7px;
     margin-top: 10%;
     }
 
@@ -547,7 +547,7 @@
 	}
 
 	.__headerbgc {
-    height: 100% !important;
+    min-height: 100% !important;
     padding-bottom: 30px;
 	}
 
@@ -773,7 +773,7 @@
 @media screen and (max-width: 800px){
 
 	.__headerbgc {
-    height: 100% !important;
+    min-height: 100% !important;
 	}
 	.__navab {
     margin-left: 0px;
@@ -1585,7 +1585,7 @@
   @media screen and (max-width: 560px){
 
   	.__headerbgc {
-    height: 100% !important;
+    min-height: 100% !important;
 	}
 
     .__greattech {
@@ -1769,19 +1769,19 @@
 
 	.__pulse1 {
     position: absolute;
-    bottom: 22.2%;
+    bottom: 21.8%;
     margin-left: 12%;
 	}
 
 	.__pulse2 {
     position: absolute;
-    bottom: 22.3%;
+    bottom: 21.8%;
     margin-left: 40%;
 	}
 
 	.__pulse3 {
     position: absolute;
-    bottom: 20.1%;
+    bottom: 19.6%;
     margin-left: 41%;
 	}
 
@@ -1793,19 +1793,19 @@
 
 	.__pulse5 {
     position: absolute;
-    bottom: 22.6%;
+    bottom: 22.3%;
     margin-left: 48%;
 	}
 
 	.__pulse6 {
     position: absolute;
-    bottom: 20.1%;
+    bottom: 19.6%;
     margin-left: 43.3%;
 	}
 
 	.__pulse7 {
     position: absolute;
-    bottom: 22.2%;
+    bottom: 21.8%;
     margin-left: 46%;
 	}
 
@@ -2206,6 +2206,11 @@
     }
 
 	.__finmt {
+    margin-top: 8%;
+    margin-left: 0px;
+    }
+
+    .__finwt {
     margin-top: 8%;
     margin-left: 0px;
 	}
