@@ -221,8 +221,8 @@
 						<div class="__mle  tech">
 							<p class="__fidffl">Findworka Fellowship</p>
 
-							<p class="__fidffl1">Become the next best developer</p>
-							<p class="__fidffl1">Findworka Fellowship is an intensive bootcamp for aspiring developers.<br>The demand for competent developers is increasing everyday. This surge in popularity is driven by the demands of today's internet users for dynamic and applications, built with today’s users in mind.</p>
+							<p class="__fidffl1"><strong>Become the next best developer</strong></p>
+							<p class="__fidffl1">Fulfill your dreams of getting started or moving forward with your career as a software developer. Get your desired skills in web development at ZERO cost!</p>
 						</div>
 					</div>
 				</div>
@@ -825,10 +825,10 @@
 				<div class="col-md-10">
 
 					<p class="__fidff slideanim">About Findworka Fellowship</p>
-					<p class="__fidff1 slideanim">We know the role that quality tutoring and mentoring can play in the development of an ambitious developer. The best developers are not only able to code using the latest frameworks and programming languages, but also having an updated understanding of how code should be written, how to collaborate and the real-world implication of every syntax. <br>The Fullstack curriculum is designed to help you have a strong technical background and develop the ability to learn quickly and apply what you know on either your startup, your freelance projects or for your new employers.</p>
+					<p class="__fidff1 slideanim">Findworka Fellowship is an intensive bootcamp for aspiring developers.<br>The demand for competent developers is increasing everyday. This surge in popularity is driven by the demands of today's internet users for dynamic and applications, built with today’s users in mind.<br>We know the role that quality tutoring and mentoring can play in the development of an ambitious developer. The best developers are not only able to code using the latest frameworks and programming languages, but also having an updated understanding of how code should be written, how to collaborate and the real-world implication of every syntax. <br>The Fullstack curriculum is designed to help you have a strong technical background and develop the ability to learn quickly and apply what you know on either your startup, your freelance projects or for your new employers.</p>
 
 					<p class="__fidffc slideanim">Our Courses</p>
-					<p class="__fidou slideanim">We are starting with two courses:<br>Front-end development.<br>Back-end development.</p>
+					<p class="__fidou slideanim"><strong>Front-end web development.<br>Back-end web development.</strong></p>
 
 					
 					
@@ -836,22 +836,41 @@
 
 						<div class="" id="First-Div">
 							<div class="form-group">
-								<label for="" class="__fidfor">Name</label>
+								<label for="" class="__fidfor">Name (required)</label>
 								<input type="text" class="form-control __fomin" placeholder="first name, last name"  name="">
 							</div>
 
 							<div class="form-group">
-								<label for="" class="__fidfor">Email Address</label>
+								<label for="" class="__fidfor">Email Address (required)</label>
 								<input type="email" class="form-control  __fomin" name="" id="" placeholder="">
+							</div>
+
+							<div class="form-group">
+								<label for="" class="__fidfor">Phone Number (required)</label>
+								<input type="text" class="form-control  __fomin" name="quantity" id="quantity" placeholder="+234"/><span id="errmsg"></span>
 							</div>
 							
 							<div class="form-group">
-								<label for="" class="__fidfor">I want to learn</label>
+								<label for="" class="__fidfor">I want to learn (required)</label>
 								<select name="" id="input" class="form-control __fomin" required="required">
 									<option value="Select">Select</option>
-									<option value="">Front-end developer</option>
-									<option value="">Back-end developer</option>
+									<option value="">Front-end web development.</option>
+									<option value="">Back-end web development.</option>
 								</select>
+							</div>
+
+							<div class="form-group">
+								<label for="" class="__fidfor">I live in (required)</label>
+								<select name="dbType" id="dbType" class="form-control __fomin" required="required">
+									<option value="Select">Select</option>
+									<option value="">All the states</option>
+									<option value="other">Other (please specify)</option>
+								</select>
+							</div>
+
+							<div class="form-group" id="otherType" style="display:none;">
+								<label for="" class="__fidfor">Others (Please Specify)</label>
+								<textarea name="" id="input" class="form-control __fomin" rows="3" placeholder="Others (Please Specify) Where you live" required=""></textarea>
 							</div>
 
 							<button type="button" class="__fombtn" onclick="showNextForm()">Continue</button>
@@ -859,22 +878,42 @@
 						<div class="" id="Second-Div" style="display: none;">
 
 							<div class="form-group">
-								<label for="" class="__fidfor">I live in</label>
+								<label for="" class="__fidfor">Technical experience (required)</label>
 								<select name="" id="input" class="form-control __fomin" required="required">
 									<option value="Select">Select</option>
-									<option value="">Lagos</option>
-									<option value="">Outside Lagos</option>
-									<option value="">Outside Nigeria</option>
+									<option value="">Novice</option>
+									<option value="">Beginner - Intermediate</option>
+									<option value="">Expert.</option>
 								</select>
 							</div>
 
+
 							<div class="form-group">
-								<label for="" class="__fidfor">In terms of experience</label>
+								<label for="" class="__fidfor">What learning experience are you looking to gain from this fellowship? (required)</label>
+								<textarea name="" id="input" class="form-control __fomin" rows="3" required="required"></textarea>
+							</div>
+
+							<div class="form-group">
+								<label for="" class="__fidfor">Social media URL (Twitter/Facebook/LinkedIn) (required)</label>
+								<input type="text" class="form-control __fomin" placeholder=""  name="">
+							</div>
+
+							<div class="form-group">
+								<label for="" class="__fidfor">Github Profile Link</label>
+								<input type="text" class="form-control __fomin" placeholder=""  name="">
+							</div>
+
+							<div class="form-group">
+								<label for="" class="__fidfor">In one sentence, why do you deserve to be selected as a fellow? (required)</label>
+								<textarea name="" id="input" class="form-control __fomin" rows="3" required="required"></textarea>
+							</div>
+
+							<div class="form-group">
+								<label for="" class="__fidfor">What schedule best works for you?</label>
 								<select name="" id="input" class="form-control __fomin" required="required">
 									<option value="Select">Select</option>
-									<option value="">I know the basics</option>
-									<option value="">I’m intermediate</option>
-									<option value="">Years of experience.</option>
+									<option value="">Weekdays :3hours X 3days</option>
+									<option value="">Weekends : 4.5hours X 2 days</option>
 								</select>
 							</div>
 

@@ -221,8 +221,8 @@
 						<div class="__mle  tech">
 							<p class="__fidffl">Findworka Mentors</p>
 
-							<p class="__fidffl1">We are looking for experienced software mentors.</p>
-							<p class="__fidffl1">Findworka Mentors is a network of experienced programmers and technical leaders who are willing to train and mentor the next generation of aspiring programmers.</p>
+							<p class="__fidffl1"><strong>We are looking for experienced software mentors.</strong></p>
+							<p class="__fidffl1">Interested in brewing intelligent minds to emerge world class software developers with your renowned field experience? Join our team of mentors/facilitators who would engage and train our fellows in a 3 month intensive class on software development while earning on the go.</p>
 						</div>
 					</div>
 				</div>
@@ -825,10 +825,10 @@
 				<div class="col-md-10">
 
 					<p class="__fidff slideanim">About Findworka Mentors</p>
-					<p class="__fidff1 slideanim">The need for competent developers is increasing everyday. This surge in popularity is driven by the demands of today's internet users for dynamic and applications, built with today’s users in mind.<br>We know the role that quality tutoring and mentoring can play in the development of an ambitious developer. That’s why we are extending an open invitation to anyone who is qualified to help this new generation of beginners.<br>To be accepted as a Findworka Mentor, you need to have at least five years of software development experience. You must have collaborated with different teams, a track record of working on successful development projects and most importantly be willing to share your experience with upcoming programming talents.</p>
+					<p class="__fidff1 slideanim">Findworka Mentors is a network of experienced programmers and technical leaders who are willing to train and mentor the next generation of aspiring programmers.<br>The need for competent developers is increasing everyday. This surge in popularity is driven by the demands of today's internet users for dynamic and applications, built with today’s users in mind.<br>We know the role that quality tutoring and mentoring can play in the development of an ambitious developer. That’s why we are extending an open invitation to anyone who is qualified to help this new generation of beginners.<br>To be accepted as a Findworka Mentor, you need to have at least five years of software development experience. You must have collaborated with different teams, a track record of working on successful development projects and most importantly be willing to share your experience with upcoming programming talents.</p>
 
 					<p class="__fidffc slideanim">Our Courses</p>
-					<p class="__fidou slideanim">We are starting with two courses:<br>Front-end development.<br>Back-end development.</p>
+					<p class="__fidou slideanim"><strong>Front-end web development.<br>Back-end web development.</strong></p>
 
 					
 					
@@ -844,28 +844,103 @@
 								<label for="" class="__fidfor">Email Address</label>
 								<input type="email" class="form-control  __fomin" name="" id="" placeholder="">
 							</div>
+
+							<div class="form-group">
+								<label for="" class="__fidfor">Phone Number (required)</label>
+								<input type="text" class="form-control  __fomin" name="quantity" id="quantity" placeholder="+234"/><span id="errmsg"></span>
+							</div>
 							
 							<div class="form-group">
-								<label for="" class="__fidfor">I want to teach or mentor</label>
+								<label for="" class="__fidfor">Technology Stack</label>
 								<select name="" id="input" class="form-control __fomin" required="required">
 									<option value="Select">Select</option>
-									<option value="">Front-end developers</option>
-									<option value="">Back-end developers</option>
+									<option value="">Front-end web development class</option>
+									<option value="">Back-end web development class</option>
 								</select>
+							</div>
+
+							<div class="form-group">
+								<label for="" class="__fidfor">I want to facilitate and mentor</label>
+								<select name="" id="input" class="form-control __fomin" required="required">
+									<option value="Select">Select</option>
+									<option value="">Front-end web development class</option>
+									<option value="">Back-end web development class</option>
+									<option value="">Full-stack web development class</option>
+								</select>
+							</div>
+
+							<div class="form-group">
+								<label for="" class="__fidfor">I live in</label>
+								<select name="dbType" id="dbType" class="form-control __fomin" required="required">
+									<option value="Select">Select</option>
+									<option value="">All the states</option>
+									<option value="other">Other (please specify)</option>
+								</select>
+							</div>
+
+							<div class="form-group" id="otherType" style="display:none;">
+								<label for="" class="__fidfor">Others (Please Specify)</label>
+								<textarea name="" id="input" class="form-control __fomin" rows="3" placeholder="Others (Please Specify) Where you live" required=""></textarea>
 							</div>
 
 							<button type="button" class="__fombtn" onclick="showNextForm()">Continue</button>
 						</div>
 						<div class="" id="Second-Div" style="display: none;">
 
+							
+
 							<div class="form-group">
-								<label for="" class="__fidfor">I have been programming for</label>
+								<label for="" class="__fidfor">Years of expereince in software development for</label>
 								<select name="" id="input" class="form-control __fomin" required="required">
 									<option value="Select">Select</option>
 									<option value="">1-5 years</option>
 									<option value="">5-7 years</option>
 									<option value="">8-10 years</option>
 									<option value="">Over 10 years</option>
+								</select>
+							</div>
+
+							<div class="form-group">
+								<label for="" class="__fidfor">Languages knowledgeable in?</label>
+								<input type="text" class="form-control __fomin" placeholder=""  name="">
+							</div>
+
+							<div class="form-group">
+								<label for="" class="__fidfor">Any prior experience in coaching or mentoring students in software development?</label>
+								<select name="dbType" id="dbType1" class="form-control __fomin" required="required">
+									<option value="Select">Select</option>
+									<option value="other">Yes</option>
+									<option value="">No</option>
+								</select>
+							</div>
+
+							<div class="form-group" id="otherType1" style="display:none;">
+								<label for="" class="__fidfor">If YES above, please describe:</label>
+								<input type="text" class="form-control __fomin" name="" id="" placeholder="please describe:">
+								<textarea name="" id="input" class="form-control __fomin" rows="3" placeholder="please describe:" required=""></textarea>
+							</div>
+
+							<div class="form-group">
+								<label for="" class="__fidfor">Social media URL (Twitter/Facebook/LinkedIn) (required)</label>
+								<input type="text" class="form-control __fomin" placeholder=""  name="">
+							</div>
+
+							<div class="form-group">
+								<label for="" class="__fidfor">Github Profile Link</label>
+								<input type="text" class="form-control __fomin" placeholder=""  name="">
+							</div>
+
+							<div class="form-group">
+								<label for="" class="__fidfor">In not less than one paragraph (a few sentences), why should you be selected as a mentor/facilitator ?</label>
+								<textarea name="" id="input" class="form-control __fomin" rows="3" required="required"></textarea>
+							</div>
+
+							<div class="form-group">
+								<label for="" class="__fidfor">What facilitator schedule best works for you?</label>
+								<select name="" id="input" class="form-control __fomin" required="required">
+									<option value="Select">Select</option>
+									<option value="">Weekdays :3hours X 3days</option>
+									<option value="">Weekends : 4.5hours X 2 days</option>
 								</select>
 							</div>
 

@@ -637,7 +637,25 @@ svg path {
 }
 
 .__abubgc {
-  background:linear-gradient(100deg, rgba(20, 20, 21, 0.5) 50%, rgba(20, 20, 21, 0.5) 50%), url(../img/book.png);
+  background:linear-gradient(100deg, rgba(20, 20, 21, 0.5) 50%, rgba(20, 20, 21, 0.5) 50%), url(../img/book1.png);
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 638px;
+}
+
+.__probgc {
+  background:linear-gradient(100deg, rgba(20, 20, 21, 0.5) 50%, rgba(20, 20, 21, 0.5) 50%), url(../img/pro_findworka.jpg);
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 638px;
+}
+
+.__projectbgc {
+  background:linear-gradient(100deg, rgba(20, 20, 21, 0.5) 50%, rgba(20, 20, 21, 0.5) 50%), url(../img/project_findworka.jpg);
     /*background-attachment: fixed;*/
     background-position: center;
     background-repeat: no-repeat;
@@ -689,7 +707,7 @@ svg path {
   background-color: #ffffff;
   border: solid 2px #091cf7;
   line-height: 7.29;
-  color: #0a0909;
+  color: #091cf7;
   font-size: 14px;
    margin-top: 5px;
    transition: all 0.4s ease-in;
@@ -1002,7 +1020,7 @@ svg path {
 
 .__web{
 	width: 286px;
-  height: 43px;
+  height: 68px;
   font-size: 30px;
   font-weight: 600;
   line-height: 3.33;
@@ -1013,7 +1031,7 @@ svg path {
 
 .__desi {
     width: 286px;
-    height: 43px;
+    height: 77px;
     font-size: 30px;
     font-weight: 600;
     line-height: 3.33;
@@ -1037,7 +1055,7 @@ svg path {
 
 .__mana {
     width: 354px;
-    height: 43px;
+    height: 74px;
     font-size: 30px;
     font-weight: 600;
     line-height: 3.33;
@@ -1048,7 +1066,7 @@ svg path {
 
 .__watever{
 	width: 384px;
-  height: 130px;
+  height: 150px;
   font-family: Sofia Pro Regular;
   font-size: 20px;
   line-height: 1.65;
@@ -1095,7 +1113,7 @@ margin-left: 57px;
 
 .__ourmem{
 	width: 287px;
-  height: 129px;
+  height: 114px;
   font-family: Sofia Pro Regular;
   font-size: 20px;
   line-height: 1.65;
@@ -1139,7 +1157,7 @@ margin-left: 57px;
 
 .__webmo {
     width: 375px;
-    height: 43px;
+    height: 74px;
     font-size: 30px;
     font-weight: 600;
     line-height: 3.33;
@@ -1538,9 +1556,20 @@ margin-left: 57px;
     /* margin-left: -8px; */
 }
 
+.__aca{
+	    width: 350px;
+    height: 43px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 3.33;
+    color: #1f1d1d;
+    font-family: Poppins-SemiBold;
+    /* margin-left: -8px; */
+}
+
 .__sau1{
 	width: 407px;
-    height: 155px;
+    height: 133px;
     font-family: Sofia Pro Regular;
     font-size: 20px;
     line-height: 1.65;
@@ -2888,4 +2917,8 @@ animation-fill-mode: forwards;
 	color: #ff0000;
 }
 /*faq end*/
+
+
+
+
 

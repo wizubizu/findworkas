@@ -100,6 +100,26 @@ $(window).scroll(function() {
 
 // end
 
+// show and hide select 
+    $('#dbType').on('change',function(){
+        if( $(this).val()==="other"){
+        $("#otherType").show()
+        }
+        else{
+        $("#otherType").hide()
+        }
+    });
+
+    $('#dbType1').on('change',function(){
+        if( $(this).val()==="other"){
+        $("#otherType1").show()
+        }
+        else{
+        $("#otherType1").hide()
+        }
+    });
+    // end
+
 // only number
 
     $(document).ready(function () {
@@ -281,7 +301,8 @@ var Clock = function () {
 
       return now.getTimezoneOffset() < dst;
     }
-  }, {
+  }, 
+  {
     key: "draw",
     value: function draw(hours, minutes, seconds) {
       var drawSeconds = seconds / 60 * 360 + 90;
@@ -304,7 +325,8 @@ var Clock = function () {
         this.handSeconds.style.transition = "all 0.05s cubic-bezier(0, 0, 0.52, 2.51) 0s";
       }
     }
-  }, {
+  }, 
+  {
     key: "getTime",
     value: function getTime() {
       var now = new Date();
@@ -315,7 +337,8 @@ var Clock = function () {
 
       this.draw(hours, minutes, seconds);
     }
-  }, {
+  }, 
+  {
     key: "cycle",
     value: function cycle() {
       setInterval(this.getTime.bind(this), 1000);
