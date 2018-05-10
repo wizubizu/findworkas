@@ -1045,6 +1045,10 @@
 
 	.__findbgc {
     min-height: 100%;
+    }
+
+    .__probgc {
+    min-height: 100%;
 	}
 
 	.__fidh {
