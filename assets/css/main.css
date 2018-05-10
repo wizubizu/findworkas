@@ -1402,6 +1402,26 @@ margin-left: 57px;
     color: #ffffff;
 }
 
+.__probtn1 {
+    width: 263px;
+    height: 56px;
+    padding-top: 14px;
+    background-color: #ffffff;
+    border: solid 2px #091cf7;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.56;
+    color: #585353;
+    font-family: Poppins-Medium;
+    transition: all 0.4s ease-in;
+}
+
+.__probtn1:hover{
+	background-color: transparent;
+    border: solid 1px #ffffff;
+    color: #ffffff;
+}
+
 
 .__extnot{
 	width: 475px;
@@ -1484,7 +1504,8 @@ margin-left: 57px;
 }
 
 .__abimgd{ 
-	background:rgba(73, 94, 198, 0.35);
+	/*background:rgba(73, 94, 198, 0.35);*/
+	background:rgba(20, 20, 21, 0.55);
 	position:absolute; 
 	top: 47px;
     left: 88px;
@@ -1590,65 +1611,73 @@ margin-left: 57px;
 
 /*gallery css*/
 
+.__gpr{
+	padding-right: 0px;
+}
+.__gpl{
+	padding-left: 0px;
+}
 
 .__wid{
 	width: 861.3px !important;
-  	height: 366px !important;
+  	height: 338px !important;
 	max-width: 100% ; 
 	display:inline-block; 
-	float: left; 
+	/*float: left;*/ 
 	text-align: center; 
 	overflow: hidden;    
 	position: relative;
 }
 .__wid1{
-	width: 497px !important;
+	width: 563px !important;
   	height: 279.6px !important;
 	max-width: 100% ; 
 	display:inline-block; 
-	float: left; 
+	/*float: left; */
 	text-align: center; 
 	overflow: hidden;    
 	position: relative;
 }
 .__wid2{
 	width: 496.9px !important;
-  	height: 274.2px !important;
+  	height: 298.2px !important;
 	max-width: 100% ; 
+	margin-top: -6px;
 	display:inline-block; 
-	float: left; 
+	/*float: left;*/ 
 	text-align: center; 
 	overflow: hidden;    
 	position: relative;
 }
 .__wid3{
 	width: 683px !important;
-  	height: 637px !important;
-  	margin-top: -188px;
+  	height: 163px !important;
+  	margin-top: -6px;
 	max-width: 100% ; 
 	display:inline-block; 
-	float: left; 
+	/*float: left;*/ 
 	text-align: center; 
 	overflow: hidden;    
 	position: relative;
 }
 .__wid4{
-	width: 178px !important;
-  	height: 187px !important;
-  	margin-top: -187px;
+	width: 331px !important;
+    height: 136px !important;
+  	margin-top: -6px;
 	max-width: 100% ; 
 	display:inline-block; 
-	float: left; 
+	/*float: left;*/ 
 	text-align: center; 
 	overflow: hidden;    
 	position: relative;
 }
 .__wid5{
 	width: 675px !important;
-  	height: 449px !important;
+  	height: 179px !important;
 	max-width: 100% ; 
+	margin-top: -6px;
 	display:inline-block; 
-	float: left; 
+	/*float: left;*/ 
 	text-align: center; 
 	overflow: hidden;    
 	position: relative;
@@ -1988,7 +2017,7 @@ margin-left: 57px;
 
 .__finmt {
     /*margin-top: 0%;*/
-    margin-left: -43px;
+    margin-left: 63px;
 }
 
 .__finwt {
