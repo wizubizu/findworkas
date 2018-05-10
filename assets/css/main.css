@@ -1885,7 +1885,7 @@ margin-left: 57px;
 
 .__fidou {
     width: 641px;
-    height: 176px;
+    height: 111px;
     font-family: Sofia Pro Regular;
     font-size: 20px;
     line-height: 1.65;
@@ -2017,7 +2017,7 @@ margin-left: 57px;
 
 .__finmt {
     /*margin-top: 0%;*/
-    margin-left: 63px;
+    margin-left: -42px;
 }
 
 .__finwt {
@@ -2141,16 +2141,17 @@ margin-left: 57px;
     font-family: Poppins-SemiBold;
     line-height: 1.50;
     color: #ffffff;
-    margin-left: -33px;
+    margin-left: -10px;
 }
 
 .__prom {
-    width: 359px;
+    width: 334px;
     /*height: 203px;*/
     font-size: 20px;
     line-height: 1.65;
     color: #ffffff;
-    margin-left: -83px;
+    margin-left: -56px;
+    font-family: Sofia Pro Regular;
 }
 
 .__proc {
@@ -2161,7 +2162,7 @@ margin-left: 57px;
     font-family: Poppins-SemiBold;
     line-height: 1.50;
     color: #ffffff;
-    margin-left: -6px;
+    margin-left: -33px;
 }
 
 .__proc1 {
@@ -2170,7 +2171,7 @@ margin-left: 57px;
     font-size: 20px;
     line-height: 1.65;
     color: #ffffff;
-    margin-left: -58px;
+    margin-left: -92px;
 }
 
 .__prodowbgc {
@@ -2868,6 +2869,7 @@ animation-fill-mode: forwards;
     line-height: 1.65;
     color: #585353;
     margin-left: 11.1%;
+    margin-top: 87px;
 }
 
 .__fidffc {

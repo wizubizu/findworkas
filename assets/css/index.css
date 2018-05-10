@@ -1,9 +1,18 @@
 /*=================================================================
-  @media screen 1440px
+  @media screen 1199px
 ==================================================================*/
 
 
 @media screen and (max-width: 1199px){
+    .__prorc{
+        margin-left: 2px;
+    }
+
+     .__prom{
+        margin-left: -44px;
+    }
+
+
     .__proc {
     margin-left: -15px;
     }
@@ -327,7 +336,7 @@
 	}
 
 	.__prom {
-    margin-left: -65px;
+    margin-left: -53px;
     font-size: 18px;
 	}
 
@@ -344,7 +353,7 @@
     height: 100%;
     font-size: 25px;
     line-height: 1.8;
-    margin-left: -10px;
+    margin-left: 0px;
 	}
 
 	.__proc1{
@@ -2231,6 +2240,7 @@
     line-height: 1.65;
     color: #585353;
     margin-left: 0px;
+    margin-top: 20px;
 	}
 
 	.__prowy {
