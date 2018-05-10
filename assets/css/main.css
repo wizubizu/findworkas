@@ -628,7 +628,7 @@ svg path {
 }*/
 
 .__headerbgc {
-   background:linear-gradient(100deg, rgba(20, 20, 21, 0.5) 50%, rgba(20, 20, 21, 0.5) 50%), url(../img/f3.jpg);
+   background:linear-gradient(100deg, rgba(1, 1, 2, 0.5) 50%, rgba(1, 1, 2, 0.5) 50%), url(../img/f3.jpg);
     /*background-attachment: fixed;*/
     background-position: center;
     background-repeat: no-repeat;
@@ -637,7 +637,7 @@ svg path {
 }
 
 .__abubgc {
-  background:linear-gradient(100deg, rgba(20, 20, 21, 0.5) 50%, rgba(20, 20, 21, 0.5) 50%), url(../img/book1.png);
+  background:linear-gradient(100deg, rgba(1, 1, 2, 0.5) 50%, rgba(1, 1, 2, 0.5) 50%), url(../img/book1.png);
     /*background-attachment: fixed;*/
     background-position: center;
     background-repeat: no-repeat;
@@ -646,7 +646,7 @@ svg path {
 }
 
 .__probgc {
-  background:linear-gradient(100deg, rgba(20, 20, 21, 0.5) 50%, rgba(20, 20, 21, 0.5) 50%), url(../img/pro_findworka.jpg);
+  background:linear-gradient(100deg, rgba(1, 1, 2, 0.5) 50%, rgba(1, 1, 2, 0.5) 50%), url(../img/pro_findworka.jpg);
     /*background-attachment: fixed;*/
     background-position: center;
     background-repeat: no-repeat;
@@ -655,7 +655,7 @@ svg path {
 }
 
 .__projectbgc {
-  background:linear-gradient(100deg, rgba(20, 20, 21, 0.5) 50%, rgba(20, 20, 21, 0.5) 50%), url(../img/project_findworka.jpg);
+  background:linear-gradient(100deg, rgba(1, 1, 2, 0.5) 50%, rgba(1, 1, 2, 0.5) 50%), url(../img/project_findworka.jpg);
     /*background-attachment: fixed;*/
     background-position: center;
     background-repeat: no-repeat;
@@ -664,7 +664,7 @@ svg path {
 }
 
 .__findbgc {
-  background:linear-gradient(100deg, rgba(20, 20, 21, 0.5) 50%, rgba(20, 20, 21, 0.5) 50%), url(../img/image11.png);
+  background:linear-gradient(100deg, rgba(1, 1, 2, 0.5) 50%, rgba(1, 1, 2, 0.5) 50%), url(../img/image11.png);
     /*background-attachment: fixed;*/
     background-position: center;
     background-repeat: no-repeat;
@@ -776,7 +776,7 @@ svg path {
 }
 
 .__greattech{
-	margin-top: 67px;
+	margin-top: 59px;
   width: 725px;
   height: 287px;
   font-size: 75px;
@@ -1497,7 +1497,7 @@ margin-left: 57px;
 	width: 322px; 
 	height: 213px;
 	border: solid 1px #707070; 
-	opacity: 0.50;
+	opacity: 0.8;
 	-webkit-transition: transform 0.5s ease;
     -o-transition: transform 0.5s ease;
     transition: transform 0.5s ease;
@@ -1857,7 +1857,7 @@ margin-left: 57px;
     font-weight: 600;
     line-height: 1.5;
     color: #ffffff;
-    margin-top: 70px;
+    margin-top: 48px;
     font-family: Poppins-SemiBold;
 }
 
@@ -2141,7 +2141,7 @@ margin-left: 57px;
     font-family: Poppins-SemiBold;
     line-height: 1.50;
     color: #ffffff;
-    margin-left: -2px;
+    margin-left: -33px;
 }
 
 .__prom {
@@ -2150,7 +2150,7 @@ margin-left: 57px;
     font-size: 20px;
     line-height: 1.65;
     color: #ffffff;
-    margin-left: -56px;
+    margin-left: -83px;
 }
 
 .__proc {
@@ -2161,7 +2161,7 @@ margin-left: 57px;
     font-family: Poppins-SemiBold;
     line-height: 1.50;
     color: #ffffff;
-    margin-left: -28px;
+    margin-left: -6px;
 }
 
 .__proc1 {
@@ -2170,7 +2170,7 @@ margin-left: 57px;
     font-size: 20px;
     line-height: 1.65;
     color: #ffffff;
-    margin-left: -88px;
+    margin-left: -58px;
 }
 
 .__prodowbgc {
