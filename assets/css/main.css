@@ -1744,6 +1744,11 @@ margin-left: 57px;
 	margin-left: 10px;
 	margin-top: 5%;
 }
+
+.__abum2 {
+    margin-left: 10px;
+    margin-top: 10%;
+}
 .__abgla{
 	margin-left: 10px;
 	margin-top: 5%;
@@ -1910,7 +1915,7 @@ margin-left: 57px;
 }
 
 #regForm1 {
-    margin-left: 16px;
+    margin-left: 28px;
     margin-top: 20%;
 }
 
@@ -2016,12 +2021,17 @@ margin-left: 57px;
 }
 
 .__finmt {
-    /*margin-top: 0%;*/
+    margin-top: 55%;
+    margin-left: -42px;
+}
+
+.__projmt {
+    /* margin-top: 55%; */
     margin-left: -42px;
 }
 
 .__finwt {
-    /* margin-top: 0%; */
+     margin-top: 55%; 
     margin-left: 59px;
 }
 
@@ -2037,7 +2047,7 @@ margin-left: 57px;
 
 .__finfr {
     width: 359px;
-    height: 203px;
+    height: 140px;
     font-size: 20px;
     line-height: 1.65;
     color: #585353;
@@ -2917,13 +2927,14 @@ animation-fill-mode: forwards;
 	margin: 0;
 	padding: 10px 0;
 	position: relative;
+	font-weight:bold;
 }
 .accordion-toggle.active:after{
 	content:"";
 	position:absolute;
 	right:0;top:17px;
 	width:0;height:0;
-	border-bottom:5px solid #f00;
+	border-bottom:5px solid #0000ef;
 	border-left:5px solid #fff;
 	border-right:5px solid #fff;
 }
@@ -2945,9 +2956,35 @@ animation-fill-mode: forwards;
 	display: none;
 }
 .accordion-toggle.active {
-	color: #ff0000;
+	color: #0000ef;
 }
 /*faq end*/
+
+
+
+.__term{
+	font-family: Sofia Pro Regular;
+	font-size: 20px;
+    line-height: 1.65;
+    color: #585353;
+    margin-left: 12px;
+}
+
+.__terhd{
+	font-size: 60px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #0a0909;
+    font-family: Poppins-SemiBold;
+    margin-left:7px;
+}
+
+.__tcol{
+	color: #0000ef;
+}
+
+
+
 
 
 
