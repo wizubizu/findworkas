@@ -2925,9 +2925,8 @@ animation-fill-mode: forwards;
 	border-bottom: 1px solid #cccccc;
 	cursor: pointer;
 	margin: 0;
-	padding: 10px 0;
+	padding: 20px 0;
 	position: relative;
-	font-weight:bold;
 }
 .accordion-toggle.active:after{
 	content:"";
@@ -2942,7 +2941,7 @@ animation-fill-mode: forwards;
 	content:"";
 	position:absolute;
 	right:0;
-	top:17px;
+	top:25px;
 	width:0;
 	height:0;
 	border-top:5px solid #000;
@@ -2954,6 +2953,9 @@ animation-fill-mode: forwards;
 }
 .accordion-content {
 	display: none;
+	font-size: 16px;
+	padding: 20px 0;
+	text-align: justify;
 }
 .accordion-toggle.active {
 	color: #0000ef;
@@ -2964,7 +2966,7 @@ animation-fill-mode: forwards;
 
 .__term{
 	font-family: Sofia Pro Regular;
-	font-size: 20px;
+	font-size: 18px;
     line-height: 1.65;
     color: #585353;
     margin-left: 12px;
