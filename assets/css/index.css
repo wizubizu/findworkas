@@ -20,7 +20,106 @@
     .__proc1 {
     margin-left: -67px;
     }
+    .__mle1 {
+    margin-left: 10%;
+    }
+
+    .__abimgd {
+    top: 40px;
+    left: 90px;
+    right: -48px;
+   }
+
+   .__navab {
+    margin-left: 86px;
+    }
+
+    .__web {
+    margin-left: -8px;
+    }
      
+     .__findpr {
+    margin-left: 6px;
+    }
+
+    .__sau {
+    margin-left: 7px;
+    }
+
+    .__wid {
+    height: 299px !important;
+    }
+
+    .__wid2 {
+    height: 274.2px !important;
+    }
+
+    .__wid5 {
+    height: 167px !important;
+    }
+
+    .__finmt {
+    margin-top: 65%;
+    }
+
+    .__finfr {
+    height: 114px;
+    }
+
+    .__finint {
+    margin-top: 0%;
+    }
+
+    .__clok {
+    width: 224px;
+    height: 354px;
+    background-color: #fafafae0;
+    padding: 36px;
+    }
+
+    .findworka.clock#fwka, .findworka.clock#fwka2, .findworka.clock#fwka1 {
+    width: 138px;
+    height: 127px;
+    }
+
+    .findworka.clock#fwka .hand, .findworka.clock#fwka2 .hand, .findworka.clock#fwka1 .hand  {
+  height: 3px;
+  top: 62.5px;
+  transform-origin: right 1.5px;
+    }
+
+    .__socion1 {
+    margin-left: -23px;
+    }
+
+    .__socion2 {
+    margin-left: -46px;
+    }
+    
+     .__socion3 {
+    margin-left: -67px;
+    }
+
+    .__pt {
+    margin-left: 36%;
+    }
+
+    .__pf{
+        margin-left: 21px;
+    }
+
+    .__pl {
+    margin-left: 3%;
+    }
+
+    .__pm {
+    margin-left: -14%;
+    }
+
+    .__conlp {
+    margin-top: 5%;
+    }
+    
 }
 
 /*=================================================================
@@ -1985,7 +2084,7 @@
     font-weight: 600;
     line-height: 1.5;
     color: #0a0909;
-    margin-left: 32px;
+    margin-left: -6px;
     margin-top: 20px;
 	}
 
