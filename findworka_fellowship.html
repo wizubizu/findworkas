@@ -830,11 +830,18 @@
 					<p class="__fidff1 slideanim">We know the role that quality tutoring and mentoring can play in the development of an ambitious developer. The best developers are not only able to code using the latest frameworks and programming languages, but also having an updated understanding of how code should be written, how to collaborate and the real-world implication of every syntax. <br>The Fullstack curriculum is designed to help you have a strong technical background and develop the ability to learn quickly and apply what you know on either your startup, your freelance projects or for your new employers.</p>
 
 					<p class="__fidffc slideanim">Our Courses</p>
-					<p class="__fidou slideanim"><strong>Front-end web development.<br>Back-end web development.</strong></p>
+					<p class="__fidou slideanim"><strong>Front-end web development.<br>Back-end web development.</strong></p><br>
+					<p class="__fidou slideanim"><strong>Timeline</strong>
+						<br>1. May 15th 2018 - Call for Applications start
+						<br>2. May 31st 2018 - Call for Applications end
+						<br>3. June 4th - 15th 2018 - Candidate screening and selection phase
+						<br>4. July 2nd 2018 - Academy program kicks off
+						<br>5. August 31st 2018 - 	Academy program ends
+					</p><br>
 
 					
 					
-					<form id="regForm" class="slideanim" action="" method="POST" role="form">
+					<form id="regForm" class="" action="" method="POST" role="form">
 
 						<div class="" id="First-Div">
 							<div class="form-group">
@@ -854,8 +861,8 @@
 							
 							<div class="form-group">
 								<label for="" class="__fidfor">I want to learn (required)</label>
-								<select name="" id="input" class="form-control __fomin" required="required">
-									<option value="Select">Select</option>
+								<select name="" id="input" class="form-control __fomin">
+									<option selected disabled="disabled">Select</option>
 									<option value="">Front-end web development.</option>
 									<option value="">Back-end web development.</option>
 								</select>
@@ -863,16 +870,16 @@
 
 							<div class="form-group">
 								<label for="" class="__fidfor">I live in (required)</label>
-								<select name="dbType" id="dbType" class="form-control __fomin" required="required">
-									<option value="Select">Select</option>
-									<option value="">All the states</option>
+								<select class="form-control __fomin" id="states" name="states">
+									<option selected disabled="disabled">Select a state</option>
+									
 									<option value="other">Other (please specify)</option>
 								</select>
 							</div>
 
 							<div class="form-group" id="otherType" style="display:none;">
 								<label for="" class="__fidfor">Others (Please Specify)</label>
-								<textarea name="" id="input" class="form-control __fomin" rows="3" placeholder="Others (Please Specify) Where you live" required=""></textarea>
+								<textarea name="" id="input" class="form-control __fomin" rows="3" placeholder="Others (Please Specify) Where you live"></textarea>
 							</div>
 
 							<button type="button" class="__fombtn" onclick="showNextForm()">Continue</button>
@@ -881,8 +888,8 @@
 
 							<div class="form-group">
 								<label for="" class="__fidfor">Technical experience (required)</label>
-								<select name="" id="input" class="form-control __fomin" required="required">
-									<option value="Select">Select</option>
+								<select name="" id="input" class="form-control __fomin">
+									<option selected disabled="disabled">Select</option>
 									<option value="">Novice</option>
 									<option value="">Beginner - Intermediate</option>
 									<option value="">Expert.</option>
@@ -892,7 +899,7 @@
 
 							<div class="form-group">
 								<label for="" class="__fidfor">What learning experience are you looking to gain from this fellowship? (required)</label>
-								<textarea name="" id="input" class="form-control __fomin" rows="3" required="required"></textarea>
+								<textarea name="" id="input" class="form-control __fomin" rows="3"></textarea>
 							</div>
 
 							<div class="form-group">
@@ -907,15 +914,15 @@
 
 							<div class="form-group">
 								<label for="" class="__fidfor">In one sentence, why do you deserve to be selected as a fellow? (required)</label>
-								<textarea name="" id="input" class="form-control __fomin" rows="3" required="required"></textarea>
+								<textarea name="" id="input" class="form-control __fomin" rows="3" ></textarea>
 							</div>
 
 							<div class="form-group">
 								<label for="" class="__fidfor">What schedule best works for you?</label>
-								<select name="" id="input" class="form-control __fomin" required="required">
-									<option value="Select">Select</option>
-									<option value="">Weekdays :3hours X 3days</option>
-									<option value="">Weekends : 4.5hours X 2 days</option>
+								<select name="" id="input" class="form-control __fomin" >
+									<option selected disabled="disabled">Select</option>
+									<option value="">Weekdays : 3hours X 3days</option>
+									<option value="">Weekends : 4-5hours X 2 days</option>
 								</select>
 							</div>
 
@@ -941,16 +948,21 @@
 							<img src="assets/img/findworka-logo.png" class="__flogo">
 						</div>
 						<div class="col-md-3 col-sm-3">
+							<h4 class="__footin"><b>PLATFORM</b></h4><br>
 							<p><a href="talent.html">Extend Your Team</a></p>
 							<p><a href="pro.html">Findworka Pro</a></p>
 							<p><a href="http://saucecode.xyz/" target="_blank">Saucecode community</a></p>
+							<p><a href="findworka_felloship.html">Findworka Academy</a></p>
+							<p><a href="findworka_mentor.html">Findworka Mentor</a></p>
 						</div>
 						<div class="col-md-3 col-sm-2">
+							<h4 class="__footin"><b>FINDWORKA</b></h4><br>
 							<p><a href="index.html">Home</a></p>
 							<p><a href="about.html">About</a></p>
 							<p><a href="contact.html">Contact</a></p>
 						</div>
 						<div class="col-md-3 col-sm-4">
+							<h4 class="__footin"><b></b></h4><br>
 							<p><a href="terms.html">Terms and conditions</a></p>
 							<p><a href="privacy.html">Privacy policy</a></p>
 							<p><a href="#">FAQ</a></p>
@@ -961,6 +973,7 @@
 					<div class="row">
 						<div class="col-xs-4 col-sm-2"></div>
 						<div class="col-xs-4 col-sm-8">
+							<h4 class="__footin"><b>FOLLOW US </b></h4><br>
 							<p class="__fotimg"><a href="https://twitter.com/findworka"><img src="assets/img/twitterblack.svg"></a></p>
 							<p class="__fotimg"><a href="https://www.facebook.com/findworka"><img src="assets/img/facebookblack.svg"></a></p>
 							<p class="__fotimg"><a href="https://www.linkedin.com/company/findworka/"><img src="assets/img/linkedinblack.svg"></a></p>
@@ -982,6 +995,7 @@
 
     <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/state.js"></script>
 
 
 </body>

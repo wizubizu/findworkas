@@ -100,6 +100,8 @@ $(window).scroll(function() {
 
 // end
 
+
+
 // show and hide select 
     $('#dbType').on('change',function(){
         if( $(this).val()==="other"){
@@ -116,6 +118,17 @@ $(window).scroll(function() {
         }
         else{
         $("#otherType1").hide()
+        }
+    });
+
+
+    $('#states').on('change',function(){
+        if( $(this).val()==="other"){
+        $("#otherType").show()
+        $("#states").hide();
+        }
+        else{
+        $("#otherType").hide()
         }
     });
     // end
@@ -150,7 +163,7 @@ $(window).scroll(function() {
 
 
 //for the next and previous form 
-
+ 
 
 
 $("#continuebtn").click(function (){
@@ -174,6 +187,74 @@ $("#continuebtn").click(function (){
         $('#Second-Div').hide();
     }
 });
+
+
+// validate form
+
+function validate() {
+
+     
+
+    if (document.myform.name.value == "") {
+        $("#First-Div").css("display", "block");
+        $("#Second-Div").css("display", "none");
+        alert("Please provide your first name, last name");
+        document.myform.name.focus();
+
+        return false;
+    }
+
+    if (document.myform.email.value == "") {
+        $("#First-Div").css("display", "block");
+        $("#Second-Div").css("display", "none");
+        alert("Please provide your email");
+        document.myform.email.focus();
+        return false;
+    }
+    
+
+    if (document.myform.quantity.value == "") {
+        alert("Please provide your phone Number");
+        $("#First-Div").css("display", "block");
+        $("#Second-Div").css("display", "none");
+        document.myform.quantity.focus();
+        return false;
+    }
+
+    if (document.myform.stack.value == "-1") {
+        alert("Please Select your Stack");
+        $("#First-Div").css("display", "block");
+        $("#Second-Div").css("display", "none");
+        document.myform.stack.focus();
+        return false;
+    }
+
+    if (document.myform.mentor.value == "") {
+        alert("Please provide ur phone Number");
+        $("#First-Div").css("display", "block");
+        $("#Second-Div").css("display", "none");
+        document.myform.mentor.focus();
+        return false;
+    }
+    // return(true);
+}
+
+
+function validateEmail() {
+    var emailID = document.myform.email.value;
+    atpos = emailID.indexOf("@");
+    dotpos = emailID.indexOf(".");
+
+    if (atpos < 1 || ( dotpos - atpos < 2)) {
+        alert("pls enter correct email ID")
+        document.myform.email.focus();
+        return false;
+    }
+    // return( true);
+}
+
+// end
+
 
 
 

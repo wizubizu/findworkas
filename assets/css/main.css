@@ -17,6 +17,8 @@ body {
 }
 
 
+
+
 @font-face{
   font-family: 'Poppins-Regular';
   src: url('../../poppins/Poppins-Regular.ttf');
@@ -47,7 +49,7 @@ body {
   font-family: 'Poppins-SemiBoldItalic';
   src: url('../../poppins/Poppins-SemiBoldItalic.ttf');
 }
-.f1{
+/*.f1{
   font-family: "Poppins-Regular";
 }
 .f2{
@@ -61,7 +63,7 @@ body {
 }
 .f5{
   font-family: "Cera GR Black";
-}
+}*/
  
  .l-h2{line-height: 27px}
 .l-h{line-height: 45px;}
@@ -619,7 +621,7 @@ svg path {
 
 .__flogo{
   width: 137.5px;
-  margin-top: -10px;
+  margin-top: 8px;
 }
 
 /*.__headerbgc {
@@ -705,7 +707,7 @@ svg path {
 	width: 104px;
   height: 41px;
   background-color: #ffffff;
-  border: solid 2px #091cf7;
+  /*border: solid 2px #091cf7;*/
   line-height: 7.29;
   color: #091cf7;
   font-size: 14px;
@@ -777,7 +779,7 @@ svg path {
 
 .__greattech{
 	margin-top: 59px;
-  width: 725px;
+  /*width: 725px;*/
   height: 287px;
   font-size: 75px;
   font-weight: 600;
@@ -814,7 +816,7 @@ svg path {
 	width: 263px;
   height: 56px;
   background-color: #ffffff;
-  border: solid 2px #091cf7;
+  /*border: solid 2px #091cf7;*/
   font-size: 16px;
   font-weight: 500;
   font-family: Poppins-Medium;
@@ -833,7 +835,7 @@ svg path {
 	width: 263px;
   height: 56px;
   background-color: #616df7;
-  border: solid 2px #091cf7;
+  /*border: solid 2px #091cf7;*/
   font-size: 16px;
   font-weight: 500;
   font-family: Poppins-Medium;
@@ -975,7 +977,7 @@ svg path {
 
 
 .__watwedo{
-	width: 360px;
+	/*width: 360px;*/
   height: 84px;
   font-size: 60px;
   font-weight: 600;
@@ -1054,7 +1056,7 @@ svg path {
 
 
 .__mana {
-    width: 354px;
+    width: 386px;
     height: 74px;
     font-size: 30px;
     font-weight: 600;
@@ -1172,7 +1174,7 @@ margin-left: 57px;
 }
 
 .__sprea{
-	width: 628px;
+	/*width: 628px;*/
   height: 84px;
   font-size: 60px;
   font-weight: 600;
@@ -1357,7 +1359,7 @@ margin-left: 57px;
 
 
 .__extlet{
-	width: 598px;
+	/*width: 598px;*/
   height: 174px;
   font-size: 60px;
   font-weight: 600;
@@ -1387,7 +1389,7 @@ margin-left: 57px;
     width: 263px;
     height: 56px;
     background-color: #ffffff;
-    border: solid 2px #091cf7;
+   /* border: solid 2px #091cf7;*/
     font-size: 16px;
     font-weight: 500;
     line-height: 1.56;
@@ -1407,7 +1409,7 @@ margin-left: 57px;
     height: 56px;
     padding-top: 14px;
     background-color: #ffffff;
-    border: solid 2px #091cf7;
+    /*border: solid 2px #091cf7;*/
     font-size: 16px;
     font-weight: 500;
     line-height: 1.56;
@@ -1434,7 +1436,13 @@ margin-left: 57px;
 }
 
 .__extnotsp{
-	color: #f46862;
+	color: #ffffff;
+	font-weight: 400;
+}
+
+.__extsp{
+	padding-bottom: 3px;
+    border-bottom: 2px solid #fff;
 }
 
 .__dowimg{
@@ -1446,6 +1454,10 @@ margin-left: 57px;
    padding: 13px;
 }
 
+.__dowimg:hover{
+	border: solid 1.5px #bfbebe;
+}
+
 .__dowimg img{
 	width: 20px;
   height: 15.7px;
@@ -1453,6 +1465,10 @@ margin-left: 57px;
 
 .__dowt{
 	margin-top: 10%;
+}
+
+.__dowt a:hover{
+	color: #bfbebe;
 }
 
 .__ourplatf {
@@ -1496,7 +1512,7 @@ margin-left: 57px;
 .__abimg{
 	width: 322px; 
 	height: 213px;
-	border: solid 1px #707070; 
+	/*border: solid 1px #707070;*/ 
 	opacity: 0.8;
 	-webkit-transition: transform 0.5s ease;
     -o-transition: transform 0.5s ease;
@@ -1685,7 +1701,7 @@ margin-left: 57px;
 
 .gallery_box{ 
 	padding:0;
-	display: flow-root;
+	/*display: flow-root;*/
 	margin-top: 174px;
 }
 
@@ -1845,6 +1861,10 @@ margin-left: 57px;
     padding: 13px;
 }
 
+.__fotimg:hover {
+   border: solid 1.5px #bfbebe;
+ }
+
 .__fotimg img{
 	width: 20px;
   height: 15.7px;
@@ -1856,7 +1876,7 @@ margin-left: 57px;
 
 
 .__fids {
-    width: 696px;
+    /*width: 696px;*/
     height: 175px;
     font-size: 60px;
     font-weight: 600;
@@ -1877,7 +1897,7 @@ margin-left: 57px;
 }
 
 .__fidh {
-    width: 693px;
+    /*width: 693px;*/
     height: 175px;
     font-size: 60px;
     font-weight: 600;
@@ -1890,7 +1910,7 @@ margin-left: 57px;
 
 .__fidou {
     width: 641px;
-    height: 111px;
+    /*height: 111px;*/
     font-family: Sofia Pro Regular;
     font-size: 20px;
     line-height: 1.65;
@@ -1970,8 +1990,8 @@ margin-left: 57px;
 
 
 .__finwy{
-	width: 502px;
-    height: 84px;
+	/*width: 502px;*/
+    /*height: 84px;*/
     font-size: 60px;
     font-weight: 600;
     font-family: Poppins-SemiBold;
@@ -1989,7 +2009,7 @@ margin-left: 57px;
 }
 
 .__finun{
-	width: 330px;
+	/*width: 330px;*/
   height: 43px;
   font-size: 30px;
   font-weight: 600;
@@ -2022,7 +2042,7 @@ margin-left: 57px;
 
 .__finmt {
     margin-top: 55%;
-    margin-left: -42px;
+    margin-left: 59px;
 }
 
 .__projmt {
@@ -2036,7 +2056,7 @@ margin-left: 57px;
 }
 
 .__finfr1 {
-    width: 348px;
+    width: 379px;
     height: 43px;
     font-size: 30px;
     font-weight: 600;
@@ -2089,7 +2109,7 @@ margin-left: 57px;
 
 
 .__finwe{
-	width: 770px;
+	/*width: 770px;*/
   height: 84px;
   font-family: Poppins-SemiBold;
   font-size: 60px;
@@ -2124,7 +2144,7 @@ margin-left: 57px;
 }
 
 .__prowy {
-    width: 502px;
+    /*width: 502px;*/
     height: 84px;
     font-size: 60px;
     font-weight: 600;
@@ -2191,7 +2211,7 @@ margin-left: 57px;
 }
 
 .__pron {
-    width: 844px;
+    /*width: 844px;*/
     height: 84px;
     font-family: Poppins-SemiBold;
     font-size: 60px;
@@ -2240,7 +2260,7 @@ margin-left: 57px;
 }
 
 .__prol {
-    width: 661px;
+    /*width: 661px;*/
     height: 84px;
     font-size: 60px;
     font-weight: 600;
@@ -2693,7 +2713,8 @@ animation-fill-mode: forwards;
 }
 
 .__pasr{
-	margin-left: 45%;
+	float: right;
+	/*margin-left: 45%;*/
 }
 
 .__sigbtn{
@@ -2837,7 +2858,7 @@ animation-fill-mode: forwards;
 
 
 .__fidffl {
-    width: 696px;
+    /*width: 696px;*/
     /* height: 175px; */
     font-size: 60px;
     font-weight: 600;
@@ -2986,8 +3007,142 @@ animation-fill-mode: forwards;
 }
 
 
+.__footin{
+	font-family: Poppins-SemiBold;
+}
 
 
+
+.__testimonytech {
+    margin-top: 59px;
+    font-size: 64px;
+    font-weight: 600;
+    font-family: Poppins-SemiBold;
+   color: #ffffff;
+}
+
+
+.__left-quotem {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: -20px;
+    z-index: 0;
+    font-family: Gentona,"Myriad Pro",sans-serif;
+    font-weight: 900;
+    color: #000;
+    font-size: 3em;
+    -moz-opacity: .1;
+    -khtml-opacity: .1;
+    opacity: .1;
+    -webkit-transform: translate(-21%,-36%);
+    -moz-transform: translate(-21%,-36%);
+    -o-transform: translate(-21%,-36%);
+    -ms-transform: translate(-21%,-36%);
+    transform: translate(-21%,-36%);
+}
+
+.__testmonbg{
+  background: #ffffff;
+    padding: 30px 50px 30px 174px;
+    box-shadow: 0 0px 9px 5px rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+    margin-top: 15%;
+    height: 175px;
+}
+
+.__testmonmg{
+  background: #ffffff;
+    position: absolute;
+    padding: 20px;
+    margin-top: -122px;
+    margin-left: -218px;
+    box-shadow: 0 0px 9px 5px rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+    width: 238px;
+    height: 233px;
+    text-align: center;
+}
+
+.__testmonmg img{
+  border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.__testmonmg p:nth-child(2){
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.__testmonmg p:nth-child(3){
+  font-size: 13px;
+  color: #989ea7;
+}
+
+
+.__testmonbgr {
+    background: #ffffff;
+    padding: 30px 174px 30px 50px;
+    box-shadow: 0 0px 9px 5px rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+    margin-top: 15%;
+    height: 175px;
+}
+
+.__testmonmgr {
+    background: #ffffff;
+    position: absolute;
+    padding: 20px;
+    margin-top: -122px;
+    margin-left: -6px;
+    box-shadow: 0 0px 9px 5px rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+    width: 238px;
+    height: 233px;
+    text-align: center;
+}
+
+.__testmonmgr img{
+  border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.__testmonmgr p:nth-child(2){
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.__testmonmgr p:nth-child(3){
+  font-size: 13px;
+  color: #989ea7;
+}
+
+.__testmonpd{
+  font-family: Sofia Pro Regular;
+    color: #989ea7;
+}
+
+.__meetourpeople{
+    margin-top: 7%;
+}
+
+.__meetbtn {
+    margin-top: 20%;
+}
+
+.__meetbg {
+   background:linear-gradient(100deg, rgba(1, 1, 2, 0.5) 50%, rgba(1, 1, 2, 0.5) 50%), url(../img/meet.jpg);
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 428.5px;
+}
 
 
 

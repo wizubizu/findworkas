@@ -828,21 +828,29 @@
 					<p class="__fidff1 slideanim">Findworka Mentors is a network of experienced programmers and technical leaders who are willing to train and mentor the next generation of aspiring programmers.<br>The need for competent developers is increasing everyday. This surge in popularity is driven by the demands of today's internet users for dynamic and applications, built with today’s users in mind.<br>We know the role that quality tutoring and mentoring can play in the development of an ambitious developer. That’s why we are extending an open invitation to anyone who is qualified to help this new generation of beginners.<br>To be accepted as a Findworka Mentor, you need to have at least five years of software development experience. You must have collaborated with different teams, a track record of working on successful development projects and most importantly be willing to share your experience with upcoming programming talents.</p>
 
 					<p class="__fidffc slideanim">Our Courses</p>
-					<p class="__fidou slideanim"><strong>Front-end web development.<br>Back-end web development.</strong></p>
+					<p class="__fidou slideanim"><strong>Front-end web development.<br>Back-end web development.</strong></p><br>
+					<p class="__fidou slideanim"><strong>Timeline</strong>
+						<br>1. May 15th 2018 - Call for Applications start
+						<br>2. May 31st 2018 - Call for Applications end
+						<br>3. June 4th - 15th 2018 - Candidate screening and selection phase
+						<br>4. July 2nd 2018 - Academy program kicks off
+						<br>5. August 31st 2018 - 	Academy program ends
+					</p><br>
 
 					
 					
-					<form id="regForm" class="slideanim" action="" method="POST" role="form">
+					<!-- <form id="regForm" class="" action="" method="POST" role="form" name="myform" onclick="return(validate());"> -->
+					<form id="regForm" action="" method="" role="form" name="myform" onsubmit ="return(validate());">
 
 						<div class="" id="First-Div">
 							<div class="form-group">
 								<label for="" class="__fidfor">Name</label>
-								<input type="text" class="form-control __fomin" placeholder="first name, last name"  name="">
+								<input type="text" class="form-control __fomin" placeholder="first name, last name"  name="name">
 							</div>
 
 							<div class="form-group">
 								<label for="" class="__fidfor">Email Address</label>
-								<input type="email" class="form-control  __fomin" name="" id="" placeholder="">
+								<input type="" class="form-control  __fomin" name="email" id="" placeholder="">
 							</div>
 
 							<div class="form-group">
@@ -852,8 +860,8 @@
 							
 							<div class="form-group">
 								<label for="" class="__fidfor">Technology Stack</label>
-								<select name="" id="input" class="form-control __fomin" required="required">
-									<option value="Select">Select</option>
+								<select name="stack" id="" class="form-control __fomin">
+									<option value="-1" selected="selected">Select</option>
 									<option value="">Front-end web development class</option>
 									<option value="">Back-end web development class</option>
 								</select>
@@ -861,7 +869,7 @@
 
 							<div class="form-group">
 								<label for="" class="__fidfor">I want to facilitate and mentor</label>
-								<select name="" id="input" class="form-control __fomin" required="required">
+								<select name="mentor" id="input" class="form-control __fomin">
 									<option value="Select">Select</option>
 									<option value="">Front-end web development class</option>
 									<option value="">Back-end web development class</option>
@@ -871,16 +879,16 @@
 
 							<div class="form-group">
 								<label for="" class="__fidfor">I live in</label>
-								<select name="dbType" id="dbType" class="form-control __fomin" required="required">
-									<option value="Select">Select</option>
-									<option value="">All the states</option>
+								<select class="form-control __fomin" id="states" name="states">
+									<option selected disabled="disabled">Select a state</option>
+									
 									<option value="other">Other (please specify)</option>
 								</select>
 							</div>
 
 							<div class="form-group" id="otherType" style="display:none;">
-								<label for="" class="__fidfor">Others (Please Specify)</label>
-								<textarea name="" id="input" class="form-control __fomin" rows="3" placeholder="Others (Please Specify) Where you live" required=""></textarea>
+								<input type="text" class="form-control  __fomin" placeholder="Please Specify Where you live"/>
+								
 							</div>
 
 							<button type="button" class="__fombtn" onclick="showNextForm()">Continue</button>
@@ -891,8 +899,8 @@
 
 							<div class="form-group">
 								<label for="" class="__fidfor">Years of expereince in software development for</label>
-								<select name="" id="input" class="form-control __fomin" required="required">
-									<option value="Select">Select</option>
+								<select name="" id="input" class="form-control __fomin">
+									<option selected disabled="disabled">Select</option>
 									<option value="">1-5 years</option>
 									<option value="">5-7 years</option>
 									<option value="">8-10 years</option>
@@ -907,7 +915,7 @@
 
 							<div class="form-group">
 								<label for="" class="__fidfor">Any prior experience in coaching or mentoring students in software development?</label>
-								<select name="dbType" id="dbType1" class="form-control __fomin" required="required">
+								<select name="dbType" id="dbType1" class="form-control __fomin" >
 									<option value="Select">Select</option>
 									<option value="other">Yes</option>
 									<option value="">No</option>
@@ -916,8 +924,7 @@
 
 							<div class="form-group" id="otherType1" style="display:none;">
 								<label for="" class="__fidfor">If YES above, please describe:</label>
-								<input type="text" class="form-control __fomin" name="" id="" placeholder="please describe:">
-								<textarea name="" id="input" class="form-control __fomin" rows="3" placeholder="please describe:" required=""></textarea>
+								<input type="text" class="form-control __fomin" placeholder="please describe:"  name="">
 							</div>
 
 							<div class="form-group">
@@ -932,15 +939,15 @@
 
 							<div class="form-group">
 								<label for="" class="__fidfor">In not less than one paragraph (a few sentences), why should you be selected as a mentor/facilitator ?</label>
-								<textarea name="" id="input" class="form-control __fomin" rows="3" required="required"></textarea>
+								<textarea name="" id="input" class="form-control __fomin" rows="3"></textarea>
 							</div>
 
 							<div class="form-group">
 								<label for="" class="__fidfor">What facilitator schedule best works for you?</label>
-								<select name="" id="input" class="form-control __fomin" required="required">
-									<option value="Select">Select</option>
-									<option value="">Weekdays :3hours X 3days</option>
-									<option value="">Weekends : 4.5hours X 2 days</option>
+								<select name="" id="input" class="form-control __fomin">
+									<option selected disabled="disabled">Select</option>
+									<option value="">Weekdays : 3hours X 3days</option>
+									<option value="">Weekends : 4-5hours X 2 days</option>
 								</select>
 							</div>
 
@@ -960,21 +967,26 @@
 		<div class="container">
 			<div class="row __dowt">
 				<div class="col-md-10 col-sm-11">
-					<div class="row ">
+					<div class="row">
 						<div class="col-md-3 col-sm-3">
 							<img src="assets/img/findworka-logo.png" class="__flogo">
 						</div>
 						<div class="col-md-3 col-sm-3">
+							<h4 class="__footin"><b>PLATFORM</b></h4><br>
 							<p><a href="talent.html">Extend Your Team</a></p>
 							<p><a href="pro.html">Findworka Pro</a></p>
 							<p><a href="http://saucecode.xyz/" target="_blank">Saucecode community</a></p>
+							<p><a href="findworka_felloship.html">Findworka Academy</a></p>
+							<p><a href="findworka_mentor.html">Findworka Mentor</a></p>
 						</div>
 						<div class="col-md-3 col-sm-2">
+							<h4 class="__footin"><b>FINDWORKA</b></h4><br>
 							<p><a href="index.html">Home</a></p>
 							<p><a href="about.html">About</a></p>
 							<p><a href="contact.html">Contact</a></p>
 						</div>
 						<div class="col-md-3 col-sm-4">
+							<h4 class="__footin"><b></b></h4><br>
 							<p><a href="terms.html">Terms and conditions</a></p>
 							<p><a href="privacy.html">Privacy policy</a></p>
 							<p><a href="#">FAQ</a></p>
@@ -985,6 +997,7 @@
 					<div class="row">
 						<div class="col-xs-4 col-sm-2"></div>
 						<div class="col-xs-4 col-sm-8">
+							<h4 class="__footin"><b>FOLLOW US </b></h4><br>
 							<p class="__fotimg"><a href="https://twitter.com/findworka"><img src="assets/img/twitterblack.svg"></a></p>
 							<p class="__fotimg"><a href="https://www.facebook.com/findworka"><img src="assets/img/facebookblack.svg"></a></p>
 							<p class="__fotimg"><a href="https://www.linkedin.com/company/findworka/"><img src="assets/img/linkedinblack.svg"></a></p>
@@ -996,6 +1009,7 @@
 		</div>
 	</footer>
 
+
 		
 
 
@@ -1006,6 +1020,7 @@
 
     <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/state.js"></script>
 
 
 </body>
