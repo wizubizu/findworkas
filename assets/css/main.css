@@ -3228,7 +3228,7 @@ animation-fill-mode: forwards;
     font-size: 15px;
     background:transparent;
     border:2px solid #ffffff;
-    color: #ffffff;
+    color: #ffffff !important;
     margin-top: 10%;
 }
 
