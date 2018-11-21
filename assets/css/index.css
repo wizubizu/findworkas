@@ -139,6 +139,31 @@
 
 
 /*=================================================================
+  @media screen 1199px
+==================================================================*/
+
+
+@media screen and (max-width: 1199px){
+   
+  
+}
+
+
+/*=================================================================
+  @media screen 1220px
+==================================================================*/
+
+
+@media screen and (max-width: 1220px){
+  
+    .__pro2 {
+        margin-top: -311px;
+    }
+
+}
+
+
+/*=================================================================
   @media screen 1024px
 ==================================================================*/
 
@@ -904,6 +929,14 @@
     .__testimonytech {
     margin-top: 59px;
     font-size: 50px;
+    }
+
+    .__pro2 {
+        margin-top: -300px;
+    }
+
+    .form-inputca {
+    width: 295px;
     }
 
 }
@@ -1783,9 +1816,74 @@
     }
 
 
+    #particles-js {
+        height: 100%;
+    }
+
+
+    .__pro2 {
+        margin-top: -336px;
+    }
+
+    .__pro2btn1{
+        margin-top: 0;
+    }
+
+    .__pro2btn2{
+        margin-top: 0;
+    }
+
+    .__getstart p:nth-child(1) {
+        font-size: 23px;
+    }
+
+    .__getstart1 p:nth-child(1) {
+        font-size: 23px;
+    }
+
+    .form-inputca {
+    width: 219px;
+    }
+
+
 
 	
 
+}
+
+/*=================================================================
+  @media screen 767px
+==================================================================*/
+
+@media screen and (max-width: 767px){
+    .__pro2 {
+        margin-top: -331px;
+    }
+
+    .__howwe {
+        margin-top: 5%;
+    }
+
+    .__howwe p:nth-child(2){
+        margin-top: 10px;
+    }
+
+    .__howwe p:nth-child(3){
+        margin-top: 10px;
+    }
+
+    .__getstart1{
+        border: 0;
+    }
+
+    .form-inputca {
+    width: 96%;
+    }
+
+    .__careerparticleshe {
+        height: 100% !important;
+    }
+  
 }
 
 
@@ -2945,6 +3043,88 @@
     padding: 20px;
     margin-top: 0;
     margin-left: 15px;
+    }
+
+
+    #particles-js{
+        height: 100%;
+    }
+
+    .particles-js-canvas-el{
+        height: 67.4% !important;
+    }
+
+    .__pro2 {
+        margin-top: -180px;
+    }
+
+    .__pro2 .__pros1 {
+        font-size: 20px;
+    }
+
+    .__pro2 .__pros2 {
+        font-size: 12px;
+    }
+
+    .__pro2btn1 {
+        padding: 6px 20px;
+        margin-top: -5px;
+    }
+
+    .__pro2btn2 {
+        padding: 6px 20px;
+        margin-top: -5px;
+    }
+
+    .__whycho{
+        font-size: 20px;
+    }
+
+    .__getstart{
+        padding: 0;
+        margin-top: 4%;
+    }
+
+    .__getstart p:nth-child(1) {
+        font-size: 20px;
+    }
+
+    .__getstart1{
+        padding: 0;
+        border:0;
+    }
+
+    .__getstart1 p:nth-child(1) {
+        font-size: 20px;
+    }
+
+
+    .__care {
+    margin-top: -155px;
+    }
+
+    .__asscard {
+        padding: 15px; 
+    }
+
+    .__asscard p:nth-child(1) {
+        font-size: 20px;
+    }
+
+    .__asscard1 {
+        padding: 15px; 
+    }
+
+    .__asscard1 p:nth-child(1) {
+        font-size: 20px;
+    }
+
+    .form-inputca {
+        width: 292px;
+    }
+
+    .__careerparticleshe {
+        height: 100% !important;
     }
 
 
